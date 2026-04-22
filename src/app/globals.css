@@ -200,6 +200,15 @@
   -webkit-mask-image: linear-gradient(to right, transparent 0, black 8%, black 92%, transparent 100%);
 }
 
+/* Hide scrollbar on horizontal sliders (visual only — keeps scroll behavior) */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* Fade-up reveal on viewport entry — approximates Webflow IX */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(16px); }

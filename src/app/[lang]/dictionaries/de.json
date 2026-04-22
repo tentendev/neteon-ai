@@ -223,6 +223,16 @@
       "tollFree": "Kostenfrei"
     }
   },
+  "blog": {
+    "tag": "Industrie-Einblicke",
+    "titleLine1": "Feldnotizen",
+    "titleLine2": "vom Edge.",
+    "sub": "Das Neueste von unseren Ingenieuren — KI-Rollouts, robuste Hardware und der Stand des Edge Computing in der Industrie.",
+    "viewAll": "Alle Beiträge ansehen",
+    "read": "Lesen",
+    "prev": "Zurück",
+    "next": "Weiter"
+  },
   "quote": {
     "title": "Mit einem Ingenieur sprechen",
     "sub": "Beschreiben Sie Ihr Deployment — wir spezifizieren die passende Hardware und antworten innerhalb eines Werktags.",

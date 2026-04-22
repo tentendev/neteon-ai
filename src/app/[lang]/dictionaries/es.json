@@ -223,6 +223,16 @@
       "tollFree": "Gratuito"
     }
   },
+  "blog": {
+    "tag": "Perspectivas industriales",
+    "titleLine1": "Notas de campo",
+    "titleLine2": "desde el edge.",
+    "sub": "Lo último de nuestros ingenieros: despliegues de IA, hardware ruggedizado y el estado del cómputo en el edge en la industria.",
+    "viewAll": "Ver todos los artículos",
+    "read": "Leer",
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
   "quote": {
     "title": "Hable con un ingeniero",
     "sub": "Cuéntenos sobre su implementación — especificaremos el hardware adecuado y responderemos en un día hábil.",

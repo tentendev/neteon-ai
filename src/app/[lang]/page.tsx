@@ -10,6 +10,7 @@ import { StatsBand } from "@/components/StatsBand";
 import { SolutionsGrid } from "@/components/SolutionsGrid";
 import { WhyNeteon } from "@/components/WhyNeteon";
 import { Testimonials } from "@/components/Testimonials";
+import { BlogInsights } from "@/components/BlogInsights";
 import { CtaBanner } from "@/components/CtaBanner";
 import { ContactStrip } from "@/components/ContactStrip";
 import { Footer } from "@/components/Footer";
@@ -207,6 +208,7 @@ export default async function Home({
           sub={dict.testimonials.sub}
           items={dict.testimonials.items}
         />
+        <BlogInsights copy={dict.blog} locale={locale} />
         <CtaBanner
           titleLine1={dict.cta.titleLine1}
           titleLine2={dict.cta.titleLine2}

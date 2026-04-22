@@ -223,6 +223,16 @@
       "tollFree": "Toll Free"
     }
   },
+  "blog": {
+    "tag": "Industrial Insights",
+    "titleLine1": "Field notes",
+    "titleLine2": "from the edge.",
+    "sub": "The latest from our engineers — AI deployments, ruggedized hardware, and the state of edge compute across industry.",
+    "viewAll": "View all posts",
+    "read": "Read",
+    "prev": "Previous",
+    "next": "Next"
+  },
   "quote": {
     "title": "Talk to an engineer",
     "sub": "Tell us about your deployment — we'll spec the right hardware and reply within one business day.",

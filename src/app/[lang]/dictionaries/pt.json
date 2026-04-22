@@ -223,6 +223,16 @@
       "tollFree": "Toll Free"
     }
   },
+  "blog": {
+    "tag": "Insights industriais",
+    "titleLine1": "Notas de campo",
+    "titleLine2": "direto do edge.",
+    "sub": "As últimas análises dos nossos engenheiros — implantações de IA, hardware ruggedizado e o estado da computação na borda em toda a indústria.",
+    "viewAll": "Ver todos os artigos",
+    "read": "Ler",
+    "prev": "Anterior",
+    "next": "Próximo"
+  },
   "quote": {
     "title": "Falar com um engenheiro",
     "sub": "Conte-nos sobre a sua implementação — especificaremos o hardware certo e responderemos em um dia útil.",

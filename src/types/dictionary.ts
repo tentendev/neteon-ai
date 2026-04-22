@@ -134,6 +134,16 @@ export type Dictionary = {
       tollFree: string;
     };
   };
+  blog: {
+    tag: string;
+    titleLine1: string;
+    titleLine2: string;
+    sub: string;
+    viewAll: string;
+    read: string;
+    prev: string;
+    next: string;
+  };
   quote: {
     title: string;
     sub: string;

@@ -223,6 +223,16 @@
       "tollFree": "Numéro vert"
     }
   },
+  "blog": {
+    "tag": "Aperçus industriels",
+    "titleLine1": "Notes de terrain",
+    "titleLine2": "depuis l’edge.",
+    "sub": "Les dernières analyses de nos ingénieurs — déploiements d’IA, matériel durci et état du calcul en périphérie dans l’industrie.",
+    "viewAll": "Voir tous les articles",
+    "read": "Lire",
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
   "quote": {
     "title": "Parler à un ingénieur",
     "sub": "Parlez-nous de votre déploiement — nous spécifierons le bon matériel et répondrons sous un jour ouvrable.",
