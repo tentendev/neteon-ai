@@ -12,7 +12,7 @@ export const urls = {
   blogNet: "https://www.neteon.net/blog/",
   linkedin: "https://www.linkedin.com/company/neteon/",
   privacy: "https://neteon.net/privacy",
-  mailSales: "mailto:sales@neteon.net",
+  mailSales: "mailto:ipc@neteon.net",
   mailSupport: "mailto:support@neteon.net",
   telMain: "tel:+17325681988",
   telTollFree: "tel:+18889083330",
@@ -39,7 +39,7 @@ export const statsValues = {
 export const contactStatic = {
   phoneMain: "732-568-1988",
   phoneTollFree: "888-908-3330",
-  emailSales: "sales@neteon.net",
+  emailSales: "ipc@neteon.net",
   emailSupport: "support@neteon.net",
   corporateLine1: "1 Tower Center Blvd, Suite 1510",
   corporateLine2: "East Brunswick, NJ 08816",
