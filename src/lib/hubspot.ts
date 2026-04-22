@@ -7,7 +7,7 @@ export type QuoteFields = {
   email: string;
   company: string;
   phone: string;
-  message: string;
+  comment: string;
 };
 
 function readHutk(): string | null {
@@ -26,16 +26,16 @@ export async function submitQuoteToHubSpot(fields: QuoteFields): Promise<void> {
       body: JSON.stringify({
         fields: (
           [
-            ["firstname", fields.firstname],
-            ["lastname", fields.lastname],
-            ["email", fields.email],
-            ["company", fields.company],
-            ["phone", fields.phone],
-            ["message", fields.message],
+            ["0-1", "firstname", fields.firstname],
+            ["0-1", "lastname", fields.lastname],
+            ["0-1", "email", fields.email],
+            ["0-1", "company", fields.company],
+            ["0-1", "phone", fields.phone],
+            ["0-5", "comment", fields.comment],
           ] as const
         )
-          .filter(([, v]) => v && v.trim().length > 0)
-          .map(([name, value]) => ({ objectTypeId: "0-1", name, value })),
+          .filter(([, , v]) => v && v.trim().length > 0)
+          .map(([objectTypeId, name, value]) => ({ objectTypeId, name, value })),
         context: {
           pageUri: typeof window !== "undefined" ? window.location.href : "",
           pageName: typeof document !== "undefined" ? document.title : "",

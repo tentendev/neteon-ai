@@ -45,7 +45,7 @@ export function QuoteModal({ copy, onClose }: Props) {
       email: String(data.get("email") ?? "").trim(),
       company: String(data.get("company") ?? "").trim(),
       phone: String(data.get("phone") ?? "").trim(),
-      message: String(data.get("message") ?? "").trim(),
+      comment: String(data.get("comment") ?? "").trim(),
     };
 
     const errs: Partial<Record<keyof QuoteFields, string>> = {};
@@ -165,7 +165,7 @@ export function QuoteModal({ copy, onClose }: Props) {
                 {copy.labels.message}
               </label>
               <textarea
-                name="message"
+                name="comment"
                 rows={3}
                 placeholder={copy.placeholders.message}
                 className="w-full bg-black border border-white/10 rounded-[6px] px-3 py-2.5 text-[14px] text-white placeholder:text-white/30 focus:outline-none focus:border-[var(--accent-neteon)] transition-colors resize-none"
