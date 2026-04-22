@@ -223,6 +223,29 @@
       "tollFree": "Numéro vert"
     }
   },
+  "quote": {
+    "title": "Parler à un ingénieur",
+    "sub": "Parlez-nous de votre déploiement — nous spécifierons le bon matériel et répondrons sous un jour ouvrable.",
+    "labels": {
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "E-mail professionnel",
+      "company": "Entreprise",
+      "phone": "Téléphone (facultatif)",
+      "message": "Que souhaitez-vous déployer ?",
+      "consent": "En soumettant, vous acceptez d'être contacté au sujet de votre demande. Nous respectons vos données — consultez notre politique de confidentialité."
+    },
+    "placeholders": {
+      "message": "Charge de travail, environnement, quantité, calendrier…"
+    },
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi…",
+    "success": "Merci — nous vous contacterons sous un jour ouvrable.",
+    "error": "Une erreur est survenue. Réessayez ou écrivez à sales@neteon.net.",
+    "close": "Fermer",
+    "required": "Requis",
+    "invalidEmail": "Saisissez un e-mail valide"
+  },
   "footer": {
     "tagline": "Fournisseur d'ordinateurs Edge AI durcis, plateformes accélérées par NVIDIA et réseaux industriels — conçus pour la fiabilité depuis 2002.",
     "phoneMain": "Principal · 732-568-1988",

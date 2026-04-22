@@ -1,5 +1,6 @@
 import { urls } from "@/lib/neteon-data";
 import { NTButton } from "./Buttons";
+import { QuoteTrigger } from "./QuoteTrigger";
 
 type Props = {
   eyebrow: string;
@@ -50,9 +51,9 @@ export function Hero({
             <NTButton variant="primary" href={urls.shop} external withArrow>
               {primaryCta}
             </NTButton>
-            <NTButton variant="ghost" href="#contact" withArrow>
+            <QuoteTrigger variant="ghost" withArrow>
               {secondaryCta}
-            </NTButton>
+            </QuoteTrigger>
           </div>
         </div>
 

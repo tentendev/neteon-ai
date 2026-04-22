@@ -134,6 +134,29 @@ export type Dictionary = {
       tollFree: string;
     };
   };
+  quote: {
+    title: string;
+    sub: string;
+    labels: {
+      firstname: string;
+      lastname: string;
+      email: string;
+      company: string;
+      phone: string;
+      message: string;
+      consent: string;
+    };
+    placeholders: {
+      message: string;
+    };
+    submit: string;
+    submitting: string;
+    success: string;
+    error: string;
+    close: string;
+    required: string;
+    invalidEmail: string;
+  };
   footer: {
     tagline: string;
     phoneMain: string;

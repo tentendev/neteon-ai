@@ -5,6 +5,7 @@ import { urls } from "@/lib/neteon-data";
 import type { Locale } from "@/lib/locales";
 import { ArrowDown, Menu, Close, NeteonWordmark } from "./icons";
 import { NTButton } from "./Buttons";
+import { QuoteTrigger } from "./QuoteTrigger";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { cn } from "@/lib/utils";
 
@@ -64,7 +65,7 @@ export function Nav({ labels, locale }: Props) {
         <div className="hidden lg:flex items-center gap-2">
           <LanguageSwitcher current={locale} label={labels.languageLabel} />
           <NTButton variant="ghost" href={urls.shop} external withArrow>{labels.shopCta}</NTButton>
-          <NTButton variant="primary" href="#contact" withArrow>{labels.quoteCta}</NTButton>
+          <QuoteTrigger variant="primary" withArrow>{labels.quoteCta}</QuoteTrigger>
         </div>
 
         <div className="lg:hidden flex items-center gap-2">
@@ -100,7 +101,7 @@ export function Nav({ labels, locale }: Props) {
           ))}
           <div className="flex gap-2 pt-2">
             <NTButton variant="ghost" href={urls.shop} external withArrow>{labels.shopCta}</NTButton>
-            <NTButton variant="primary" href="#contact" withArrow>{labels.quoteCta}</NTButton>
+            <QuoteTrigger variant="primary" withArrow>{labels.quoteCta}</QuoteTrigger>
           </div>
         </div>
       </div>

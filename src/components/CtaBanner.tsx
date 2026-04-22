@@ -1,5 +1,5 @@
 import { urls } from "@/lib/neteon-data";
-import { NTButton } from "./Buttons";
+import { QuoteTrigger } from "./QuoteTrigger";
 
 type Props = {
   titleLine1: string;
@@ -34,7 +34,7 @@ export function CtaBanner({ titleLine1, titleLine2, body, primaryCta, secondaryC
             >
               {primaryCta}
             </a>
-            <NTButton variant="secondary" href="#contact">{secondaryCta}</NTButton>
+            <QuoteTrigger variant="secondary">{secondaryCta}</QuoteTrigger>
           </div>
         </div>
       </div>

@@ -223,6 +223,29 @@
       "tollFree": "Gratuito"
     }
   },
+  "quote": {
+    "title": "Hable con un ingeniero",
+    "sub": "Cuéntenos sobre su implementación — especificaremos el hardware adecuado y responderemos en un día hábil.",
+    "labels": {
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "email": "Correo profesional",
+      "company": "Empresa",
+      "phone": "Teléfono (opcional)",
+      "message": "¿Qué busca desplegar?",
+      "consent": "Al enviar, acepta ser contactado sobre su consulta. Respetamos sus datos — consulte nuestra Política de Privacidad."
+    },
+    "placeholders": {
+      "message": "Carga de trabajo, entorno, cantidad, plazo…"
+    },
+    "submit": "Enviar solicitud",
+    "submitting": "Enviando…",
+    "success": "Gracias — nos pondremos en contacto en un día hábil.",
+    "error": "Algo salió mal. Inténtelo de nuevo o escriba a sales@neteon.net.",
+    "close": "Cerrar",
+    "required": "Obligatorio",
+    "invalidEmail": "Introduzca un correo válido"
+  },
   "footer": {
     "tagline": "Proveedor de computadores Edge AI robustos, plataformas aceleradas por NVIDIA y redes industriales — diseñados para la confiabilidad desde 2002.",
     "phoneMain": "Principal · 732-568-1988",

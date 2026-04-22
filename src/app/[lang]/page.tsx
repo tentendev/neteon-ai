@@ -13,6 +13,7 @@ import { Testimonials } from "@/components/Testimonials";
 import { CtaBanner } from "@/components/CtaBanner";
 import { ContactStrip } from "@/components/ContactStrip";
 import { Footer } from "@/components/Footer";
+import { QuoteFormProvider } from "@/components/QuoteFormProvider";
 import {
   EDGE_ROW_ORDER,
   PLATFORM_ROW_ORDER,
@@ -118,6 +119,7 @@ export default async function Home({
   ];
 
   return (
+    <QuoteFormProvider copy={dict.quote}>
     <div className="min-h-screen flex flex-col bg-black text-white">
       <Announcement text={dict.announcement.text} ctaLabel={dict.announcement.ctaLabel} />
       <Nav labels={dict.nav} locale={locale} />
@@ -230,5 +232,6 @@ export default async function Home({
         phoneTollFreeLabel={dict.footer.phoneTollFree}
       />
     </div>
+    </QuoteFormProvider>
   );
 }

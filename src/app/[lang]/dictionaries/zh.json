@@ -223,6 +223,29 @@
       "tollFree": "免付費"
     }
   },
+  "quote": {
+    "title": "與工程師交談",
+    "sub": "告訴我們您的部署需求 — 我們會為您選配合適的硬體,並在一個工作日內回覆。",
+    "labels": {
+      "firstname": "名字",
+      "lastname": "姓氏",
+      "email": "公司電子郵件",
+      "company": "公司",
+      "phone": "電話(選填)",
+      "message": "您計劃部署什麼?",
+      "consent": "提交即表示您同意就您的詢問與您聯繫。我們尊重您的資料 — 請參閱隱私權政策。"
+    },
+    "placeholders": {
+      "message": "工作負載、環境、數量、時程…"
+    },
+    "submit": "送出需求",
+    "submitting": "傳送中…",
+    "success": "感謝 — 我們會在一個工作日內與您聯繫。",
+    "error": "出現問題。請重試或寄信至 sales@neteon.net。",
+    "close": "關閉",
+    "required": "必填",
+    "invalidEmail": "請輸入有效的電子郵件"
+  },
   "footer": {
     "tagline": "堅固邊緣 AI 電腦、NVIDIA 加速平台與工業網通的提供者 — 自 2002 年起為可靠度而設計。",
     "phoneMain": "總機 · 732-568-1988",
