@@ -1,0 +1,220 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ========================================================================
+   Design tokens — inspired by crusoe.ai's visual system.
+   Adapted for Neteon.ai (Industrial Computing, AI-Ready).
+
+   Signature: mono display type, black-first canvas, hi-vis-yellow accent,
+   alternating black / yellow / dark-green section rhythm.
+   ======================================================================== */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-sans), "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), "JetBrains Mono Fallback", ui-monospace, monospace;
+  --font-heading: var(--font-mono);
+
+  --color-accent-neteon: var(--accent-neteon);
+  --color-accent-neteon-hover: var(--accent-neteon-hover);
+  --color-ink: var(--ink);
+  --color-bg-slab: var(--bg-slab);
+  --color-bg-banner: var(--bg-banner);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-rule: var(--rule);
+  --color-text-dim: var(--text-dim);
+  --color-text-faint: var(--text-faint);
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --radius-2xl: 8px;
+  --radius-3xl: 12px;
+  --radius-4xl: 16px;
+
+  --container-max: 1408px;
+}
+
+/* Crusoe-derived tokens, applied globally.
+   Site is dark-first so :root and .dark hold the same palette — keeps
+   shadcn primitives consistent when they branch on the `.dark` selector. */
+:root {
+  --accent-neteon: #ceeb13;         /* hi-vis yellow */
+  --accent-neteon-hover: #a0b711;   /* derived darker yellow */
+  --ink: #000000;                    /* pure black canvas */
+  --bg-slab: #ceeb13;               /* yellow slab section */
+  --bg-banner: #323c2a;             /* dark-green announcement banner */
+  --surface: #111111;               /* elevated dark surface */
+  --surface-2: #181818;             /* card */
+  --rule: #1f1f1f;                  /* hairline divider */
+  --text-dim: #a3a3a3;              /* stone-grey */
+  --text-faint: #6b6b6b;
+
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #111111;
+  --card-foreground: #ffffff;
+  --popover: #111111;
+  --popover-foreground: #ffffff;
+  --primary: #ceeb13;
+  --primary-foreground: #000000;
+  --secondary: #e8e8e8;
+  --secondary-foreground: #000000;
+  --muted: #1f1f1f;
+  --muted-foreground: #a3a3a3;
+  --accent: #ceeb13;
+  --accent-foreground: #000000;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #1f1f1f;
+  --input: #1f1f1f;
+  --ring: #ceeb13;
+  --chart-1: #ceeb13;
+  --chart-2: #a0b711;
+  --chart-3: #7799b6;
+  --chart-4: #323c2a;
+  --chart-5: #a3a3a3;
+  --radius: 0.25rem;
+  --sidebar: #000000;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ceeb13;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #111111;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #1f1f1f;
+  --sidebar-ring: #ceeb13;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #111111;
+  --card-foreground: #ffffff;
+  --popover: #111111;
+  --popover-foreground: #ffffff;
+  --primary: #ceeb13;
+  --primary-foreground: #000000;
+  --secondary: #e8e8e8;
+  --secondary-foreground: #000000;
+  --muted: #1f1f1f;
+  --muted-foreground: #a3a3a3;
+  --accent: #ceeb13;
+  --accent-foreground: #000000;
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: #1f1f1f;
+  --input: #1f1f1f;
+  --ring: #ceeb13;
+  --chart-1: #ceeb13;
+  --chart-2: #a0b711;
+  --chart-3: #7799b6;
+  --chart-4: #323c2a;
+  --chart-5: #a3a3a3;
+  --sidebar: #000000;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ceeb13;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #111111;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #1f1f1f;
+  --sidebar-ring: #ceeb13;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    background: var(--background);
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  ::selection {
+    background: var(--accent-neteon);
+    color: var(--ink);
+  }
+  /* Numerals look better tabular on the stats band */
+  .tabular { font-variant-numeric: tabular-nums; }
+}
+
+/* Reusable container width */
+.container-huge {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(16px, 4vw, 32px);
+  padding-right: clamp(16px, 4vw, 32px);
+}
+
+/* Marquee for partner strip */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}
+.marquee-mask {
+  mask-image: linear-gradient(to right, transparent 0, black 8%, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0, black 8%, black 92%, transparent 100%);
+}
+
+/* Fade-up reveal on viewport entry — approximates Webflow IX */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal-in-view {
+  animation: fadeUp 0.8s ease both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+/* Hero orbit animation */
+@keyframes orbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.orbit-slow { animation: orbit 30s linear infinite; }
+.orbit-med  { animation: orbit 18s linear infinite reverse; }

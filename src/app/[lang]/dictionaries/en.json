@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Neteon.ai — Industrial Computing, AI-Ready",
+    "description": "Rugged industrial PCs, Edge AI platforms, and NVIDIA-accelerated computing — built for the harshest environments, backed by 22+ years of engineering expertise."
+  },
+  "announcement": {
+    "text": "Edge AI platforms in stock. Free hardware consultation — we'll spec it for your workload in one call.",
+    "ctaLabel": "Browse catalog"
+  },
+  "nav": {
+    "products": "Products",
+    "solutions": "Solutions",
+    "why": "Why Neteon",
+    "contact": "Contact",
+    "blog": "Blog",
+    "shopCta": "Shop IPC Store",
+    "quoteCta": "Get a quote",
+    "languageLabel": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "INDUSTRIAL PC · EDGE AI · SINCE 2002",
+    "titleLine1": "Industrial Computing,",
+    "titleLine2Emphasis": "AI-Ready.",
+    "sub": "NVIDIA-accelerated Edge AI systems engineered for -40 °C to 70 °C operation — shipped validated, supported by engineers, backed by 22 years in the field.",
+    "distributorLine": "Authorized distributor · NVIDIA · Intel · Moxa · Neousys · Innodisk",
+    "primaryCta": "Browse products",
+    "secondaryCta": "Get a quote",
+    "chips": {
+      "jetson": "JETSON · 275 TOPS",
+      "temp": "-40 °C → 70 °C",
+      "milstd": "MIL-STD-810",
+      "pcie": "PCIe Gen4 · 350 W"
+    }
+  },
+  "slab1": {
+    "pre": "The factory floor is becoming",
+    "emphasis": "intelligent.",
+    "post": "Is your hardware ready?"
+  },
+  "slab2": {
+    "pre": "1 million connected devices. 26 thousand customers.",
+    "since": "/ since 2002"
+  },
+  "edgeAccordion": {
+    "eyebrow": "01 · Edge AI services",
+    "rows": {
+      "rugged": {
+        "title": "Rugged Edge AI",
+        "body": "Fanless NVIDIA-accelerated compute, MIL-STD-810 certified and tested from -40 °C to 70 °C. Wide-voltage input for vehicles, substations, and industrial automation cells — no datacenter required."
+      },
+      "gpu": {
+        "title": "GPU Computing",
+        "body": "NUVO-10000 class platforms drive up to 350 W discrete GPUs on PCIe Gen4. Multi-GPU configurations for deep-learning training and real-time video analytics — at the edge, under load, 24/7."
+      },
+      "jetson": {
+        "title": "Jetson Platform",
+        "body": "NVIDIA Jetson from Orin Nano to AGX Orin, delivering up to 275 TOPS. Industrial I/O carriers with secure boot and long-life production support — design it in once, ship it for a decade."
+      }
+    }
+  },
+  "platformAccordion": {
+    "eyebrow": "03 · Industrial platform",
+    "rows": {
+      "networking": {
+        "title": "Industrial Networking",
+        "body": "Managed and unmanaged Ethernet switches, 5G/LTE cellular gateways, and OT cybersecurity appliances from Moxa and Teltonika. Certified for hazardous locations and rolling-stock deployments."
+      },
+      "storage": {
+        "title": "Industrial Storage",
+        "body": "Innodisk industrial-grade SSDs and DRAM with wide-temperature operation, power-loss protection, and predictive health telemetry — storage that surfaces wear before it becomes downtime."
+      },
+      "compact": {
+        "title": "Fanless Compact",
+        "body": "Palm-sized POC-700 systems with Intel Core processors, PoE, and IP67 options. Ideal for kiosks, digital signage, and space-constrained machine-vision deployments where every mm matters."
+      }
+    }
+  },
+  "products": {
+    "tag": "02 · Product portfolio",
+    "titleLine1": "Industrial computing",
+    "titleLine2": "for every edge.",
+    "sub": "From palm-sized fanless PCs to 350 W GPU platforms — every system validated by our engineers for your workload, your temperature band, and your uptime target.",
+    "exploreCta": "Explore series",
+    "items": {
+      "rugged-edge": {
+        "name": "Rugged Edge AI Computers",
+        "tag": "FLAGSHIP",
+        "description": "NVIDIA-accelerated fanless systems certified MIL-STD-810 — deploy AI inference on the factory floor, in the substation, or inside the vehicle without a gateway in between.",
+        "specs": ["-40 °C to 70 °C", "MIL-STD-810", "Fanless"]
+      },
+      "compact": {
+        "name": "Fanless Compact PCs",
+        "tag": "COMPACT",
+        "description": "Palm-sized POC-700 series with Intel Core, PoE, and IP67 options — power kiosks, signage, and space-constrained machine-vision cells without a fan to fail.",
+        "specs": ["Intel Core", "PoE", "IP67 options"]
+      },
+      "gpu": {
+        "name": "GPU Computing Platforms",
+        "tag": "HIGH PERFORMANCE",
+        "description": "NUVO-10000 series with 350 W discrete GPU headroom and PCIe Gen4 — purpose-built for real-time video analytics, deep-learning training, and autonomous systems.",
+        "specs": ["Up to 350 W GPU", "PCIe Gen4", "Multi-GPU"]
+      },
+      "jetson": {
+        "name": "Jetson Edge AI Platform",
+        "tag": "EDGE AI",
+        "description": "NVIDIA Jetson Orin Nano → AGX Orin, shipped on industrial-I/O carriers with secure boot — up to 275 TOPS in a footprint small enough to mount anywhere.",
+        "specs": ["Orin Nano → AGX", "275 TOPS", "Industrial I/O"]
+      },
+      "networking": {
+        "name": "Industrial Networking",
+        "tag": "NETWORKING",
+        "description": "Managed Ethernet, 5G/LTE gateways, and OT security appliances from Moxa and Teltonika — hardened networks that don't drop packets when the plant floor heats up.",
+        "specs": ["Moxa", "Teltonika", "OT Security"]
+      },
+      "storage": {
+        "name": "Industrial Storage & Memory",
+        "tag": "STORAGE & MEMORY",
+        "description": "Innodisk SSDs and DRAM with power-loss protection, wide-temp operation, and predictive health telemetry — storage that fails loudly before it fails silently.",
+        "specs": ["Wide-temp", "Power-loss safe", "Health telemetry"]
+      }
+    }
+  },
+  "stats": {
+    "years": "Years in industry",
+    "devices": "Connected devices",
+    "customers": "Customers worldwide",
+    "support": "Technical support"
+  },
+  "solutions": {
+    "tag": "04 · Industry solutions",
+    "titleLine1": "Deployed across",
+    "titleLine2": "critical industries.",
+    "sub": "Smart factories, substations, rail, wellpads, wind farms, and data halls — our hardware runs where an outage is measured in revenue, safety, or both.",
+    "items": {
+      "manufacturing": {
+        "name": "Manufacturing",
+        "description": "Machine-vision QA, predictive maintenance, and line-side inference — catch defects before they ship."
+      },
+      "energy": {
+        "name": "Energy & Utilities",
+        "description": "SCADA, substation edge compute, and grid telemetry on hardware rated for the hard jobs."
+      },
+      "transportation": {
+        "name": "Transportation",
+        "description": "Fleet, rail, and maritime compute — wide-voltage, shock-rated, certified where it counts."
+      },
+      "datacenter": {
+        "name": "Data Centers",
+        "description": "Edge nodes and remote-site infrastructure where density, uptime, and serviceability matter equally."
+      },
+      "oilgas": {
+        "name": "Oil & Gas",
+        "description": "Remote monitoring, safety systems, and wellpad compute built for extreme environments."
+      },
+      "renewable": {
+        "name": "Renewable Energy",
+        "description": "Solar, wind, and storage monitoring — rugged wide-temp platforms that survive the site, not just the datasheet."
+      }
+    }
+  },
+  "why": {
+    "tag": "05 · Why Neteon",
+    "titleLine1": "Not just a distributor.",
+    "titleLine2": "Your Edge AI partner.",
+    "sub": "Every product ships with the context, configuration, and support required to make it work in the field. That's the difference between a catalog and a partner.",
+    "cards": {
+      "experience": {
+        "eyebrow": "22+ years",
+        "title": "Industrial DNA, not a catalog reseller",
+        "body": "Since 2002 we've powered industrial infrastructure across every wave — serial, Ethernet, 4G, now edge AI. We know the environments your systems actually live in."
+      },
+      "curated": {
+        "eyebrow": "Curated",
+        "title": "Validated before it ships",
+        "body": "We don't list everything — we list what our engineers have tested. NVIDIA, Intel, Moxa, Neousys, Innodisk. Breadth isn't a substitute for fit."
+      },
+      "engineers": {
+        "eyebrow": "Field-tested",
+        "title": "Engineers, not call centers",
+        "body": "You get the same people who've deployed edge systems in plants, substations, and vehicles. When you call, we've configured the box you're holding."
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "05.5 · Trusted by industry",
+    "titleLine1": "Powering critical",
+    "titleLine2": "operations worldwide.",
+    "sub": "Deployed in factories, substations, and fleets — supported by engineers who've configured the same hardware you're running.",
+    "items": [
+      {
+        "quote": "Neteon's deep knowledge of industrial computing and their ability to recommend the right platform for our factory floor AI deployment saved us months of evaluation time.",
+        "author": "Systems Integrator",
+        "role": "Manufacturing · Taiwan"
+      },
+      {
+        "quote": "The rugged edge computers have been running 24/7 in our substation for over three years without a single failure. That's the kind of reliability we need.",
+        "author": "Infrastructure Manager",
+        "role": "Energy · North America"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Your next deployment",
+    "titleLine2": "starts here.",
+    "body": "Browse the complete catalog of rugged industrial PCs, Edge AI platforms, and networking — in stock, validated, and ready to ship. Or tell us the workload and we'll spec it with you in one call.",
+    "primaryCta": "Visit IPC Store →",
+    "secondaryCta": "Talk to an engineer"
+  },
+  "contact": {
+    "tag": "06 · Contact",
+    "title": "Talk to the team that ships the systems.",
+    "sub": "Free hardware consultation. One-business-day response. Sales, support, and engineering on the same lines.",
+    "labels": {
+      "phone": "Phone",
+      "email": "Email",
+      "corporate": "Corporate office & support center",
+      "warehouse": "Shipping warehouse",
+      "sales": "Sales & ordering",
+      "support": "Technical support",
+      "main": "Main",
+      "tollFree": "Toll Free"
+    }
+  },
+  "footer": {
+    "tagline": "Provider of rugged Edge AI computers, NVIDIA-accelerated platforms, and industrial networking — engineered for reliability since 2002.",
+    "phoneMain": "Main · 732-568-1988",
+    "phoneTollFree": "Toll Free · 888-908-3330",
+    "linkedin": "LinkedIn ↗",
+    "copyright": "© 2026 Neteon Technologies, Inc. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "columns": {
+      "products": {
+        "title": "Products",
+        "links": {
+          "rugged": "Rugged Edge AI Computers",
+          "compact": "Fanless Compact PCs",
+          "gpu": "GPU Computing",
+          "jetson": "Jetson Platform"
+        }
+      },
+      "shop": {
+        "title": "Shop",
+        "links": {
+          "ipc": "Industrial Computer",
+          "moxa": "Shop Moxa",
+          "iiot": "Industrial IoT"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "links": {
+          "shipping": "Shipping & Orders",
+          "support": "Technical Support",
+          "warranty": "Warranty & Returns",
+          "blogAi": "Neteon.ai Blog",
+          "blogNet": "Neteon.net Blog"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "why": "Why Neteon",
+          "contact": "Contact",
+          "linkedin": "LinkedIn"
+        }
+      }
+    }
+  }
+}

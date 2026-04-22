@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Neteon.ai — Industrial Computing, AI-Ready</title>
+<meta name="description" content="Rugged industrial PCs, Edge AI platforms, and NVIDIA accelerated computing — engineered for the harshest environments." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --bg-elev: #111111;
+    --bg-card: #141414;
+    --line: #1f1f1f;
+    --line-strong: #2a2a2a;
+    --text: #f4f4f4;
+    --text-dim: #a3a3a3;
+    --text-faint: #6b6b6b;
+    --accent: #d6ff3b;
+    --accent-dim: #b5dd2c;
+    --accent-ink: #0a0a0a;
+    --radius-sm: 4px;
+    --radius: 10px;
+    --radius-lg: 18px;
+    --maxw: 1240px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    font-feature-settings: 'ss01','cv11';
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.55;
+  }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; display: block; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.02em; }
+  .container { max-width: var(--maxw); margin: 0 auto; padding: 0 28px; }
+
+  /* ---------- NAV ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(14px);
+    background: rgba(10,10,10,0.72);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 68px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: -0.01em; font-size: 18px; }
+  .brand-mark {
+    width: 28px; height: 28px; border-radius: 6px;
+    background: var(--accent);
+    display: grid; place-items: center;
+    color: var(--accent-ink);
+    font-weight: 800; font-size: 14px;
+  }
+  .brand-mark span { transform: translateY(-1px); }
+  .nav-links { display: flex; gap: 28px; font-size: 14px; color: var(--text-dim); }
+  .nav-links a { transition: color .2s; }
+  .nav-links a:hover { color: var(--text); }
+  .nav-cta { display: flex; align-items: center; gap: 10px; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 10px 16px; border-radius: 999px;
+    font-size: 14px; font-weight: 500;
+    border: 1px solid var(--line-strong);
+    transition: transform .15s ease, background .2s, color .2s, border-color .2s;
+    cursor: pointer;
+  }
+  .btn:hover { border-color: #3a3a3a; }
+  .btn-ghost { background: transparent; color: var(--text); }
+  .btn-primary {
+    background: var(--accent); color: var(--accent-ink); border-color: var(--accent);
+    font-weight: 600;
+  }
+  .btn-primary:hover { background: var(--accent-dim); border-color: var(--accent-dim); transform: translateY(-1px); }
+  .btn-outline { background: transparent; color: var(--text); }
+  .btn svg { width: 14px; height: 14px; }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative; overflow: hidden;
+    padding: 96px 0 80px;
+    border-bottom: 1px solid var(--line);
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: 0;
+    background:
+      radial-gradient(600px 300px at 80% 20%, rgba(214,255,59,0.10), transparent 60%),
+      radial-gradient(500px 280px at 15% 90%, rgba(214,255,59,0.06), transparent 60%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(800px 500px at 50% 40%, black, transparent 75%);
+    pointer-events: none;
+  }
+  .hero-grid {
+    position: relative; z-index: 1;
+    display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px; align-items: center;
+  }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--line-strong); background: var(--bg-elev);
+    font-size: 12px; color: var(--text-dim);
+  }
+  .eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(214,255,59,0.15); }
+  h1.display {
+    font-size: clamp(44px, 6vw, 76px);
+    line-height: 1.02; letter-spacing: -0.025em;
+    margin: 22px 0 20px; font-weight: 700;
+  }
+  h1.display em {
+    font-style: normal; color: var(--accent);
+    background: linear-gradient(180deg, var(--accent) 0%, #a9d224 100%);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .hero p.lede {
+    font-size: 18px; color: var(--text-dim); max-width: 560px; margin: 0 0 32px;
+  }
+  .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  .hero-visual {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background:
+      radial-gradient(circle at 60% 40%, rgba(214,255,59,0.12), transparent 55%),
+      linear-gradient(180deg, #0e0e0e, #060606);
+    overflow: hidden;
+  }
+  .hero-visual .ring {
+    position: absolute; inset: 8%; border: 1px solid rgba(255,255,255,0.06); border-radius: 50%;
+  }
+  .hero-visual .ring.r2 { inset: 20%; }
+  .hero-visual .ring.r3 { inset: 32%; }
+  .hero-visual .core {
+    position: absolute; inset: 42%;
+    background: var(--accent);
+    border-radius: 12px;
+    box-shadow: 0 0 60px rgba(214,255,59,0.35), 0 0 120px rgba(214,255,59,0.18);
+  }
+  .hero-visual .chip {
+    position: absolute; font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: var(--text-dim); padding: 6px 10px;
+    border: 1px solid var(--line-strong); border-radius: 6px; background: rgba(20,20,20,0.8);
+  }
+  .chip-1 { top: 14%; left: 10%; }
+  .chip-2 { top: 22%; right: 12%; }
+  .chip-3 { bottom: 18%; left: 14%; }
+  .chip-4 { bottom: 10%; right: 16%; }
+
+  /* ---------- MARQUEE / PARTNERS ---------- */
+  .partners {
+    padding: 36px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .partners-inner { display: flex; align-items: center; gap: 40px; flex-wrap: wrap; justify-content: space-between; }
+  .partners-label { font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.18em; }
+  .partners-row { display: flex; gap: 44px; align-items: center; flex-wrap: wrap; }
+  .partner { font-size: 18px; color: var(--text-dim); font-weight: 500; letter-spacing: -0.01em; opacity: 0.85; transition: opacity .2s, color .2s; }
+  .partner:hover { color: var(--text); opacity: 1; }
+
+  /* ---------- SECTION PRIMITIVES ---------- */
+  section { padding: 100px 0; border-bottom: 1px solid var(--line); }
+  .section-head { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: end; margin-bottom: 48px; }
+  .section-tag {
+    font-family: 'JetBrains Mono', monospace; font-size: 12px;
+    color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase;
+    display: inline-flex; align-items: center; gap: 10px;
+  }
+  .section-tag::before { content: ""; width: 22px; height: 1px; background: var(--accent); }
+  h2.section-title {
+    font-size: clamp(32px, 3.6vw, 50px); letter-spacing: -0.02em; margin: 14px 0 0;
+    line-height: 1.08; font-weight: 700;
+  }
+  .section-sub { color: var(--text-dim); font-size: 17px; max-width: 520px; margin: 0; }
+
+  /* ---------- PRODUCTS ---------- */
+  .product-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  }
+  .card {
+    background: var(--bg-card); border: 1px solid var(--line);
+    border-radius: var(--radius-lg); padding: 28px; position: relative;
+    transition: border-color .25s, transform .25s, background .25s;
+  }
+  .card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+  .card .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: var(--accent); background: rgba(214,255,59,0.08);
+    border: 1px solid rgba(214,255,59,0.25);
+    padding: 4px 10px; border-radius: 999px; margin-bottom: 18px;
+  }
+  .card h3 { font-size: 22px; letter-spacing: -0.01em; margin: 0 0 10px; font-weight: 600; }
+  .card p { color: var(--text-dim); font-size: 15px; margin: 0 0 20px; }
+  .card .specs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 22px; }
+  .spec {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: var(--text-dim); padding: 4px 9px;
+    border: 1px solid var(--line-strong); border-radius: 6px;
+    background: rgba(255,255,255,0.02);
+  }
+  .card .arrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 14px; color: var(--accent); font-weight: 500;
+  }
+  .card .icon {
+    position: absolute; top: 22px; right: 22px;
+    width: 40px; height: 40px; border-radius: 10px;
+    background: rgba(214,255,59,0.10); border: 1px solid rgba(214,255,59,0.22);
+    display: grid; place-items: center; color: var(--accent);
+  }
+  .icon svg { width: 20px; height: 20px; }
+
+  /* ---------- STATS ---------- */
+  .stats {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+    border: 1px solid var(--line); border-radius: var(--radius-lg);
+    overflow: hidden; background: var(--bg-elev);
+  }
+  .stat { padding: 36px 28px; border-right: 1px solid var(--line); }
+  .stat:last-child { border-right: none; }
+  .stat .num {
+    font-size: clamp(36px, 4vw, 54px); letter-spacing: -0.03em; font-weight: 700;
+    line-height: 1; color: var(--text);
+  }
+  .stat .num em { color: var(--accent); font-style: normal; }
+  .stat .lbl { color: var(--text-dim); font-size: 14px; margin-top: 10px; }
+
+  /* ---------- SOLUTIONS ---------- */
+  .solutions-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    background: var(--line); border: 1px solid var(--line); border-radius: var(--radius-lg);
+    overflow: hidden;
+  }
+  .solution {
+    background: var(--bg); padding: 32px; min-height: 220px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    transition: background .25s;
+    position: relative;
+  }
+  .solution:hover { background: var(--bg-elev); }
+  .solution .num { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-faint); }
+  .solution h4 { font-size: 22px; margin: 8px 0 6px; font-weight: 600; letter-spacing: -0.01em; }
+  .solution p { color: var(--text-dim); font-size: 14px; margin: 0; }
+  .solution::after {
+    content: "↗"; position: absolute; top: 28px; right: 28px; color: var(--text-faint);
+    font-size: 18px; transition: color .25s, transform .25s;
+  }
+  .solution:hover::after { color: var(--accent); transform: translate(2px, -2px); }
+
+  /* ---------- WHY ---------- */
+  .why-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;
+  }
+  .why-card {
+    background: var(--bg-card); border: 1px solid var(--line);
+    border-radius: var(--radius-lg); padding: 32px;
+  }
+  .why-card .why-num {
+    font-family: 'JetBrains Mono', monospace; font-size: 13px;
+    color: var(--accent); margin-bottom: 22px; display: inline-block;
+    padding: 4px 10px; border: 1px solid rgba(214,255,59,0.25);
+    border-radius: 6px; background: rgba(214,255,59,0.06);
+  }
+  .why-card h4 { font-size: 22px; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 10px; }
+  .why-card p { color: var(--text-dim); font-size: 15px; margin: 0; }
+
+  /* ---------- CTA BANNER ---------- */
+  .cta-banner {
+    margin: 0 0 0; padding: 72px 48px;
+    border-radius: 0;
+    background:
+      radial-gradient(800px 400px at 20% 0%, rgba(214,255,59,0.18), transparent 60%),
+      linear-gradient(180deg, #0c0c0c 0%, #060606 100%);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    position: relative; overflow: hidden;
+  }
+  .cta-inner {
+    display: grid; grid-template-columns: 1.4fr 1fr; gap: 40px; align-items: center;
+    max-width: var(--maxw); margin: 0 auto;
+  }
+  .cta-inner h3 { font-size: clamp(28px, 3vw, 42px); letter-spacing: -0.02em; line-height: 1.1; margin: 0 0 12px; font-weight: 700; }
+  .cta-inner p { color: var(--text-dim); font-size: 16px; margin: 0; max-width: 520px; }
+  .cta-actions { display: flex; gap: 12px; justify-content: flex-end; flex-wrap: wrap; }
+
+  /* ---------- FOOTER ---------- */
+  footer { padding: 72px 0 40px; background: #060606; }
+  .footer-grid {
+    display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr; gap: 40px;
+    margin-bottom: 56px;
+  }
+  .footer-brand p { color: var(--text-dim); font-size: 14px; margin: 14px 0 0; max-width: 320px; }
+  .footer-col h5 {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--text-faint); margin: 0 0 16px; font-weight: 500;
+  }
+  .footer-col a {
+    display: block; font-size: 14px; color: var(--text-dim); margin-bottom: 10px;
+    transition: color .2s;
+  }
+  .footer-col a:hover { color: var(--text); }
+  .footer-bottom {
+    padding-top: 28px; border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 13px; color: var(--text-faint);
+    flex-wrap: wrap; gap: 12px;
+  }
+  .footer-bottom a { color: var(--text-dim); }
+  .footer-bottom a:hover { color: var(--text); }
+  .legal-links { display: flex; gap: 20px; }
+
+  /* ---------- CONTACT STRIP ---------- */
+  .contact-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  }
+  .contact-card {
+    background: var(--bg-card); border: 1px solid var(--line);
+    border-radius: var(--radius-lg); padding: 28px;
+  }
+  .contact-card h5 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-faint); margin: 0 0 14px; font-weight: 500; }
+  .contact-card p { margin: 0 0 8px; font-size: 15px; color: var(--text); }
+  .contact-card .muted { color: var(--text-dim); font-size: 14px; }
+  .contact-card a.link { color: var(--accent); font-size: 14px; }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 960px) {
+    .nav-links { display: none; }
+    .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+    .hero-visual { max-width: 420px; }
+    .section-head { grid-template-columns: 1fr; gap: 16px; }
+    .product-grid, .solutions-grid, .why-grid, .contact-grid { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .stat:nth-child(2) { border-right: none; }
+    .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--line); }
+    .cta-inner { grid-template-columns: 1fr; }
+    .cta-actions { justify-content: flex-start; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 520px) {
+    .stats { grid-template-columns: 1fr; }
+    .stat { border-right: none; border-bottom: 1px solid var(--line); }
+    .stat:last-child { border-bottom: none; }
+    .footer-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#">
+      <span class="brand-mark"><span>N</span></span>
+      Neteon<span style="color:var(--accent)">.ai</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#products">Products</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#why">Why Neteon</a>
+      <a href="#contact">Contact</a>
+      <a href="#">Blog</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="#">Shop IPC Store</a>
+      <a class="btn btn-primary" href="#contact">Get Started
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="border-top: none;">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span><span class="mono">NVIDIA · INTEL · MOXA · NEOUSYS</span></span>
+      <h1 class="display">Industrial Computing,<br/><em>AI-Ready.</em></h1>
+      <p class="lede">Rugged industrial PCs, Edge AI platforms, and NVIDIA-accelerated computing — built for the harshest environments and backed by 22+ years of engineering expertise.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#products">Explore Products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a class="btn btn-outline" href="#contact">Talk to an engineer</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="ring"></div>
+      <div class="ring r2"></div>
+      <div class="ring r3"></div>
+      <div class="core"></div>
+      <div class="chip chip-1">JETSON · 275 TOPS</div>
+      <div class="chip chip-2">-40°C → 70°C</div>
+      <div class="chip chip-3">MIL-STD-810</div>
+      <div class="chip chip-4">PCIe Gen4 · 350W</div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="partners" style="padding:36px 0;">
+  <div class="container partners-inner">
+    <span class="partners-label">Trusted technology partners</span>
+    <div class="partners-row">
+      <span class="partner">NVIDIA</span>
+      <span class="partner">Intel</span>
+      <span class="partner">Moxa</span>
+      <span class="partner">Neousys</span>
+      <span class="partner">Innodisk</span>
+      <span class="partner">Teltonika</span>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">01 · Products</span>
+        <h2 class="section-title">A curated portfolio,<br/>validated by engineers.</h2>
+      </div>
+      <p class="section-sub">Every platform we ship has been tested by the team deploying it. Selection over breadth — because reliable infrastructure is not a catalog problem.</p>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="card">
+        <span class="pill">FLAGSHIP</span>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M7 20h10M12 16v4"/></svg>
+        </div>
+        <h3>Rugged Edge AI Computers</h3>
+        <p>Fanless high-performance systems with GPU support, certified for extreme conditions and MIL-STD shock and vibration.</p>
+        <div class="specs">
+          <span class="spec">-40°C → 70°C</span>
+          <span class="spec">MIL-STD-810</span>
+          <span class="spec">Fanless</span>
+        </div>
+        <a class="arrow" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <span class="pill">COMPACT</span>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/></svg>
+        </div>
+        <h3>Fanless Compact PCs</h3>
+        <p>Ultra-compact POC-700 series with Intel Core processors — palm-sized for kiosks and space-constrained deployments.</p>
+        <div class="specs">
+          <span class="spec">Intel Core</span>
+          <span class="spec">PoE</span>
+          <span class="spec">IP67 options</span>
+        </div>
+        <a class="arrow" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <span class="pill">HIGH PERFORMANCE</span>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16v12H4z"/><path d="M8 10h8v4H8z"/><path d="M2 10v4M22 10v4"/></svg>
+        </div>
+        <h3>GPU Computing Platforms</h3>
+        <p>NUVO-10000 series supports up to 350W GPU power with PCIe Gen4 — multi-GPU ready for deep learning and real-time analytics.</p>
+        <div class="specs">
+          <span class="spec">Up to 350W GPU</span>
+          <span class="spec">PCIe Gen4</span>
+          <span class="spec">Multi-GPU</span>
+        </div>
+        <a class="arrow" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <span class="pill">EDGE AI</span>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
+        </div>
+        <h3>Jetson Edge AI Platform</h3>
+        <p>NVIDIA Jetson-powered systems from Orin Nano to AGX Orin, delivering up to 275 TOPS with optimized industrial I/O.</p>
+        <div class="specs">
+          <span class="spec">Orin Nano → AGX</span>
+          <span class="spec">275 TOPS</span>
+          <span class="spec">Industrial I/O</span>
+        </div>
+        <a class="arrow" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <span class="pill">NETWORKING</span>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M6 8v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8M12 12v4"/></svg>
+        </div>
+        <h3>Industrial Networking</h3>
+        <p>Managed and unmanaged Ethernet switches, cellular gateways, and OT cybersecurity appliances from Moxa and Teltonika.</p>
+        <div class="specs">
+          <span class="spec">Moxa</span>
+          <span class="spec">Teltonika</span>
+          <span class="spec">OT Security</span>
+        </div>
+        <a class="arrow" href="#">Learn more →</a>
+      </article>
+
+      <article class="card">
+        <span class="pill">STORAGE &amp; MEMORY</span>
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="10" rx="2"/><circle cx="8" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="16" cy="12" r="1"/></svg>
+        </div>
+        <h3>Industrial Storage &amp; Memory</h3>
+        <p>Innodisk industrial-grade SSDs and DRAM with wide-temperature operation, power-loss protection, and predictive health monitoring.</p>
+        <div class="specs">
+          <span class="spec">Wide-temp</span>
+          <span class="spec">Power-loss safe</span>
+          <span class="spec">Health telemetry</span>
+        </div>
+        <a class="arrow" href="#">Learn more →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section style="padding: 80px 0;">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:32px;">
+      <div>
+        <span class="section-tag">02 · By the numbers</span>
+        <h2 class="section-title">Operating since 2002.</h2>
+      </div>
+      <p class="section-sub">Decades of industrial computing, translated into hands-on experience across factories, substations, vehicles, and data centers.</p>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <div class="num"><em>22+</em></div>
+        <div class="lbl">Years in industry</div>
+      </div>
+      <div class="stat">
+        <div class="num"><em>1M+</em></div>
+        <div class="lbl">Connected devices</div>
+      </div>
+      <div class="stat">
+        <div class="num"><em>26K+</em></div>
+        <div class="lbl">Customers worldwide</div>
+      </div>
+      <div class="stat">
+        <div class="num"><em>24/7</em></div>
+        <div class="lbl">Technical support</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTIONS -->
+<section id="solutions">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">03 · Solutions</span>
+        <h2 class="section-title">Engineered for<br/>the demanding edge.</h2>
+      </div>
+      <p class="section-sub">From grid-scale SCADA to rolling-stock telemetry, our systems are deployed where downtime is not an option.</p>
+    </div>
+
+    <div class="solutions-grid">
+      <div class="solution">
+        <div><span class="num">/ 01</span><h4>Manufacturing</h4></div>
+        <p>Smart factory, machine vision, and quality AI running at the line.</p>
+      </div>
+      <div class="solution">
+        <div><span class="num">/ 02</span><h4>Energy &amp; Utilities</h4></div>
+        <p>Grid monitoring, SCADA, and substation-grade edge compute.</p>
+      </div>
+      <div class="solution">
+        <div><span class="num">/ 03</span><h4>Transportation</h4></div>
+        <p>Fleet, rail, and maritime telemetry with certified compute platforms.</p>
+      </div>
+      <div class="solution">
+        <div><span class="num">/ 04</span><h4>Data Centers</h4></div>
+        <p>Edge nodes and infrastructure compute where density meets reliability.</p>
+      </div>
+      <div class="solution">
+        <div><span class="num">/ 05</span><h4>Oil &amp; Gas</h4></div>
+        <p>Remote site monitoring and safety systems in extreme environments.</p>
+      </div>
+      <div class="solution">
+        <div><span class="num">/ 06</span><h4>Renewable Energy</h4></div>
+        <p>Solar, wind, and storage monitoring with rugged wide-temperature hardware.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">04 · Why Neteon</span>
+        <h2 class="section-title">The difference<br/>is the engineering.</h2>
+      </div>
+      <p class="section-sub">We are not a catalog reseller. Every product ships with the context and support required to make it work in the field.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-num">22+ years</span>
+        <h4>Deep industry experience</h4>
+        <p>Operating since 2002, with long-running expertise in industrial digital infrastructure across critical sectors.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num">Curated</span>
+        <h4>Portfolio by selection</h4>
+        <p>Products are validated by our engineering team before they are offered — breadth is not a substitute for fit.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-num">Field-tested</span>
+        <h4>Engineers, not call centers</h4>
+        <p>Support is delivered by engineers with hands-on deployment experience in factories, substations, and vehicles.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <div class="cta-inner">
+    <div>
+      <h3>Have a deployment in mind?<br/>Let's spec it together.</h3>
+      <p>Tell us about the environment, workload, and I/O requirements — we will match the right platform and validate it with you before you commit.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-primary" href="#contact">Talk to an engineer
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <a class="btn btn-outline" href="#">Download datasheet</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">05 · Contact</span>
+        <h2 class="section-title">Reach the team directly.</h2>
+      </div>
+      <p class="section-sub">Sales, support, or engineering — we answer on the same lines.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h5>Phone</h5>
+        <p>732-568-1988 <span class="muted">· Main</span></p>
+        <p>888-908-3330 <span class="muted">· Toll Free</span></p>
+      </div>
+      <div class="contact-card">
+        <h5>Corporate office</h5>
+        <p>1 Tower Center Blvd, Suite 1510</p>
+        <p class="muted">East Brunswick, NJ 08816</p>
+      </div>
+      <div class="contact-card">
+        <h5>Shipping warehouse</h5>
+        <p>2913 Saturn Street, Unit F</p>
+        <p class="muted">Brea, CA 92821</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#">
+          <span class="brand-mark"><span>N</span></span>
+          Neteon<span style="color:var(--accent)">.ai</span>
+        </a>
+        <p>Industrial computing, AI-ready. Engineered for the demanding edge since 2002.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <a href="#">Rugged Edge AI Computers</a>
+        <a href="#">Fanless Compact PCs</a>
+        <a href="#">GPU Computing</a>
+        <a href="#">Jetson Platform</a>
+      </div>
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <a href="#">Shop Moxa</a>
+        <a href="#">Industrial Computer</a>
+        <a href="#">Industrial IoT</a>
+      </div>
+      <div class="footer-col">
+        <h5>Resources</h5>
+        <a href="#">Shipping &amp; Orders</a>
+        <a href="#">Technical Support</a>
+        <a href="#">Warranty &amp; Returns</a>
+        <a href="#">Neteon.ai Blog</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Neteon Technologies, Inc. All rights reserved.</span>
+      <div class="legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

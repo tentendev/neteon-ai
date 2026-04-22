@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Neteon.ai — Industrial Computing, KI-bereit",
+    "description": "Neteon.ai ist Ihr verlässlicher Partner für robuste Industrie-PCs, Edge-AI-Plattformen und NVIDIA-beschleunigtes Computing — konzipiert für härteste Umgebungen und getragen von über 22 Jahren Engineering-Erfahrung."
+  },
+  "announcement": {
+    "text": "Edge-AI-Plattformen auf Lager. Kostenlose Hardware-Beratung — wir spezifizieren Ihren Workload in einem Call.",
+    "ctaLabel": "Katalog ansehen"
+  },
+  "nav": {
+    "products": "Produkte",
+    "solutions": "Lösungen",
+    "why": "Warum Neteon",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "shopCta": "IPC-Shop",
+    "quoteCta": "Angebot anfordern",
+    "languageLabel": "Sprache",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "hero": {
+    "eyebrow": "INDUSTRIE-PC · EDGE AI · SEIT 2002",
+    "titleLine1": "Industrial Computing,",
+    "titleLine2Emphasis": "KI-bereit.",
+    "sub": "NVIDIA-beschleunigte Edge-AI-Systeme, ausgelegt für -40 °C bis 70 °C — validiert ausgeliefert, von Ingenieuren betreut, getragen von 22 Jahren Feldpraxis.",
+    "distributorLine": "Autorisierter Distributor · NVIDIA · Intel · Moxa · Neousys · Innodisk",
+    "primaryCta": "Produkte ansehen",
+    "secondaryCta": "Angebot anfordern",
+    "chips": {
+      "jetson": "JETSON · 275 TOPS",
+      "temp": "-40 °C → 70 °C",
+      "milstd": "MIL-STD-810",
+      "pcie": "PCIe Gen4 · 350 W"
+    }
+  },
+  "slab1": {
+    "pre": "Die Fertigung wird",
+    "emphasis": "intelligent.",
+    "post": "Ist Ihre Hardware bereit?"
+  },
+  "slab2": {
+    "pre": "1 Million vernetzte Geräte. 26 Tausend Kunden.",
+    "since": "/ seit 2002"
+  },
+  "edgeAccordion": {
+    "eyebrow": "01 · Edge-AI-Services",
+    "rows": {
+      "rugged": {
+        "title": "Rugged Edge AI",
+        "body": "Lüfterloses, NVIDIA-beschleunigtes Computing, MIL-STD-810 zertifiziert und geprüft von -40 °C bis 70 °C. Weitbereichs-Spannungseingang für Fahrzeuge, Unterwerke und Automatisierungszellen — ohne Rechenzentrum."
+      },
+      "gpu": {
+        "title": "GPU-Computing",
+        "body": "Plattformen der NUVO-10000-Klasse fahren diskrete GPUs bis 350 W über PCIe Gen4. Multi-GPU-Konfigurationen für Deep-Learning-Training und Echtzeit-Videoanalyse — am Edge, unter Last, 24/7."
+      },
+      "jetson": {
+        "title": "Jetson-Plattform",
+        "body": "NVIDIA Jetson vom Orin Nano bis AGX Orin mit bis zu 275 TOPS. Industrielle Carrier-Boards mit Secure Boot und langer Lieferfähigkeit — einmal designen, ein Jahrzehnt ausliefern."
+      }
+    }
+  },
+  "platformAccordion": {
+    "eyebrow": "03 · Industrie-Plattform",
+    "rows": {
+      "networking": {
+        "title": "Industrie-Netzwerk",
+        "body": "Managed und Unmanaged Ethernet-Switches, 5G/LTE-Mobilfunk-Gateways und OT-Cybersecurity-Appliances von Moxa und Teltonika. Zertifiziert für Ex-Bereiche und rollendes Material."
+      },
+      "storage": {
+        "title": "Industrie-Storage",
+        "body": "Innodisk Industrial-SSDs und DRAM mit Wide-Temp-Betrieb, Power-Loss-Protection und prädiktiver Telemetrie — Speicher, der Verschleiß meldet, bevor er zum Ausfall wird."
+      },
+      "compact": {
+        "title": "Lüfterlos kompakt",
+        "body": "Handflächengroße POC-700-Systeme mit Intel Core, PoE und IP67-Optionen. Ideal für Kioske, Digital Signage und Machine Vision in beengten Einbauräumen."
+      }
+    }
+  },
+  "products": {
+    "tag": "02 · Produktportfolio",
+    "titleLine1": "Industrial Computing",
+    "titleLine2": "für jeden Edge.",
+    "sub": "Vom handflächengroßen lüfterlosen PC bis zur 350 W GPU-Plattform — jedes System von unseren Ingenieuren für Ihren Workload, Ihr Temperaturfenster und Ihr Uptime-Ziel validiert.",
+    "exploreCta": "Serie entdecken",
+    "items": {
+      "rugged-edge": {
+        "name": "Robuste Edge-AI-Computer",
+        "tag": "FLAGGSCHIFF",
+        "description": "NVIDIA-beschleunigte, lüfterlose Systeme mit MIL-STD-810-Zertifizierung — bringen Sie KI-Inferenz direkt in Produktion, Unterwerk oder Fahrzeug, ohne Zwischen-Gateway.",
+        "specs": ["-40 °C bis 70 °C", "MIL-STD-810", "Lüfterlos"]
+      },
+      "compact": {
+        "name": "Lüfterlose Kompakt-PCs",
+        "tag": "KOMPAKT",
+        "description": "POC-700-Serie in Handflächengröße mit Intel Core, PoE und IP67-Optionen — bestücken Sie Kioske, Signage und enge Machine-Vision-Zellen ohne Lüfter, der ausfallen kann.",
+        "specs": ["Intel Core", "PoE", "IP67 verfügbar"]
+      },
+      "gpu": {
+        "name": "GPU-Computing-Plattformen",
+        "tag": "HIGH PERFORMANCE",
+        "description": "NUVO-10000-Serie mit Headroom für 350 W diskrete GPUs und PCIe Gen4 — gebaut für Echtzeit-Videoanalyse, Deep-Learning-Training und autonome Systeme.",
+        "specs": ["bis 350 W GPU", "PCIe Gen4", "Multi-GPU"]
+      },
+      "jetson": {
+        "name": "Jetson Edge-AI-Plattform",
+        "tag": "EDGE AI",
+        "description": "NVIDIA Jetson Orin Nano → AGX Orin auf Industrie-I/O-Carriern mit Secure Boot — bis 275 TOPS in einem Footprint klein genug, um überall montiert zu werden.",
+        "specs": ["Orin Nano → AGX", "275 TOPS", "Industrie-I/O"]
+      },
+      "networking": {
+        "name": "Industrie-Netzwerk",
+        "tag": "NETZWERK",
+        "description": "Managed Ethernet, 5G/LTE-Gateways und OT-Security-Appliances von Moxa und Teltonika — gehärtete Netze, die keine Pakete verlieren, wenn die Halle heiß wird.",
+        "specs": ["Moxa", "Teltonika", "OT-Security"]
+      },
+      "storage": {
+        "name": "Industrie-Speicher & -RAM",
+        "tag": "SPEICHER & RAM",
+        "description": "Innodisk SSDs und DRAM mit Power-Loss-Protection, Wide-Temp-Betrieb und prädiktiver Telemetrie — Speicher, der laut ausfällt, bevor er leise ausfällt.",
+        "specs": ["Wide-temp", "Power-loss safe", "Telemetrie"]
+      }
+    }
+  },
+  "stats": {
+    "years": "Jahre in der Branche",
+    "devices": "Vernetzte Geräte",
+    "customers": "Kunden weltweit",
+    "support": "Technischer Support"
+  },
+  "solutions": {
+    "tag": "04 · Branchenlösungen",
+    "titleLine1": "Im Einsatz in",
+    "titleLine2": "kritischen Industrien.",
+    "sub": "Smart Factories, Unterwerke, Bahn, Bohrplattformen, Windparks und Data Halls — unsere Hardware läuft dort, wo Ausfälle in Umsatz, Sicherheit oder beidem gemessen werden.",
+    "items": {
+      "manufacturing": {
+        "name": "Fertigung",
+        "description": "Machine-Vision-QA, Predictive Maintenance und Linien-Inferenz — Fehler fangen, bevor sie ausgeliefert werden."
+      },
+      "energy": {
+        "name": "Energie & Versorger",
+        "description": "SCADA, Edge-Compute im Unterwerk und Netz-Telemetrie auf Hardware für die harten Aufgaben."
+      },
+      "transportation": {
+        "name": "Transport",
+        "description": "Compute für Flotten, Bahn und Maritim — Weitbereichs-Spannung, stoßfest, zertifiziert wo es zählt."
+      },
+      "datacenter": {
+        "name": "Rechenzentren",
+        "description": "Edge-Knoten und Infrastruktur für Remote-Standorte, wo Dichte, Uptime und Servicefähigkeit gleich wichtig sind."
+      },
+      "oilgas": {
+        "name": "Öl & Gas",
+        "description": "Fernüberwachung, Sicherheitssysteme und Wellpad-Compute für Extrembedingungen."
+      },
+      "renewable": {
+        "name": "Erneuerbare Energien",
+        "description": "Solar-, Wind- und Speicherüberwachung — robuste Wide-Temp-Plattformen, die nicht nur im Datenblatt, sondern auch am Standort überleben."
+      }
+    }
+  },
+  "why": {
+    "tag": "05 · Warum Neteon",
+    "titleLine1": "Mehr als ein Distributor.",
+    "titleLine2": "Ihr Edge-AI-Partner.",
+    "sub": "Jedes Produkt kommt mit Kontext, Konfiguration und Support, die es im Feld zum Laufen bringen. Das ist der Unterschied zwischen Katalog und Partner.",
+    "cards": {
+      "experience": {
+        "eyebrow": "22+ Jahre",
+        "title": "Industrie-DNA, kein Katalog-Reseller",
+        "body": "Seit 2002 begleiten wir industrielle Infrastrukturen durch jede Welle — seriell, Ethernet, 4G, jetzt Edge AI. Wir kennen die Umgebungen, in denen Ihre Systeme wirklich leben."
+      },
+      "curated": {
+        "eyebrow": "Kuratiert",
+        "title": "Vor dem Versand validiert",
+        "body": "Wir listen nicht alles — wir listen, was unsere Ingenieure getestet haben. NVIDIA, Intel, Moxa, Neousys, Innodisk. Breite ersetzt kein Passgenauigkeit."
+      },
+      "engineers": {
+        "eyebrow": "Feld-erprobt",
+        "title": "Ingenieure, keine Call-Center",
+        "body": "Sie sprechen mit denselben Leuten, die Edge-Systeme in Werken, Unterwerken und Fahrzeugen ausgerollt haben. Wenn Sie anrufen, haben wir die Box in der Hand gehabt."
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "05.5 · Vertrauen der Industrie",
+    "titleLine1": "Im Rücken kritischer",
+    "titleLine2": "Operationen weltweit.",
+    "sub": "Eingesetzt in Werken, Unterwerken und Flotten — unterstützt von Ingenieuren, die dieselbe Hardware konfiguriert haben, die Sie betreiben.",
+    "items": [
+      {
+        "quote": "Das tiefe Know-how von Neteon im Industrial Computing und ihre Fähigkeit, die richtige Plattform für unseren KI-Einsatz in der Fertigung zu empfehlen, hat uns Monate an Evaluation erspart.",
+        "author": "Systems Integrator",
+        "role": "Fertigung · Taiwan"
+      },
+      {
+        "quote": "Die robusten Edge-Computer laufen seit über drei Jahren 24/7 in unserem Unterwerk — ohne einen einzigen Ausfall. Genau diese Zuverlässigkeit brauchen wir.",
+        "author": "Infrastructure Manager",
+        "role": "Energie · Nordamerika"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Ihr nächster Rollout",
+    "titleLine2": "beginnt hier.",
+    "body": "Stöbern Sie im kompletten Katalog robuster Industrie-PCs, Edge-AI-Plattformen und Netzwerke — lagernd, validiert, versandbereit. Oder nennen Sie uns den Workload, und wir spezifizieren ihn mit Ihnen in einem Call.",
+    "primaryCta": "Zum IPC-Shop →",
+    "secondaryCta": "Mit einem Ingenieur sprechen"
+  },
+  "contact": {
+    "tag": "06 · Kontakt",
+    "title": "Sprechen Sie mit dem Team, das die Systeme verschickt.",
+    "sub": "Kostenlose Hardware-Beratung. Antwort binnen einem Arbeitstag. Vertrieb, Support und Engineering auf einer Leitung.",
+    "labels": {
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "corporate": "Zentrale & Support-Center",
+      "warehouse": "Versandlager",
+      "sales": "Vertrieb & Bestellungen",
+      "support": "Technischer Support",
+      "main": "Zentrale",
+      "tollFree": "Kostenfrei"
+    }
+  },
+  "footer": {
+    "tagline": "Anbieter robuster Edge-AI-Computer, NVIDIA-beschleunigter Plattformen und Industrie-Netzwerke — konstruiert für Zuverlässigkeit seit 2002.",
+    "phoneMain": "Zentrale · 732-568-1988",
+    "phoneTollFree": "Kostenfrei · 888-908-3330",
+    "linkedin": "LinkedIn ↗",
+    "copyright": "© 2026 Neteon Technologies, Inc. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "cookie": "Cookie-Richtlinie",
+    "columns": {
+      "products": {
+        "title": "Produkte",
+        "links": {
+          "rugged": "Robuste Edge-AI-Computer",
+          "compact": "Lüfterlose Kompakt-PCs",
+          "gpu": "GPU-Computing",
+          "jetson": "Jetson-Plattform"
+        }
+      },
+      "shop": {
+        "title": "Shop",
+        "links": {
+          "ipc": "Industrie-Computer",
+          "moxa": "Moxa-Shop",
+          "iiot": "Industrial IoT"
+        }
+      },
+      "resources": {
+        "title": "Ressourcen",
+        "links": {
+          "shipping": "Versand & Bestellungen",
+          "support": "Technischer Support",
+          "warranty": "Garantie & Rückgabe",
+          "blogAi": "Neteon.ai Blog",
+          "blogNet": "Neteon.net Blog"
+        }
+      },
+      "company": {
+        "title": "Unternehmen",
+        "links": {
+          "why": "Warum Neteon",
+          "contact": "Kontakt",
+          "linkedin": "LinkedIn"
+        }
+      }
+    }
+  }
+}

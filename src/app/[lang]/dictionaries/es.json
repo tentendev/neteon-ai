@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Neteon.ai — Computación industrial, lista para IA",
+    "description": "Neteon.ai es tu socio de confianza en PCs industriales robustos, plataformas de Edge AI y computación acelerada por NVIDIA — diseñados para los entornos más exigentes y respaldados por más de 22 años de experiencia en ingeniería."
+  },
+  "announcement": {
+    "text": "Plataformas de Edge AI en stock. Consultoría de hardware gratuita — dimensionamos tu carga de trabajo en una sola llamada.",
+    "ctaLabel": "Ver catálogo"
+  },
+  "nav": {
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "why": "Por qué Neteon",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "shopCta": "Tienda IPC",
+    "quoteCta": "Solicitar cotización",
+    "languageLabel": "Idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "eyebrow": "PC INDUSTRIAL · EDGE AI · DESDE 2002",
+    "titleLine1": "Computación industrial,",
+    "titleLine2Emphasis": "lista para IA.",
+    "sub": "Sistemas de Edge AI acelerados por NVIDIA, diseñados para operar de -40 °C a 70 °C — validados al despacho, soportados por ingenieros y respaldados por 22 años de campo.",
+    "distributorLine": "Distribuidor autorizado · NVIDIA · Intel · Moxa · Neousys · Innodisk",
+    "primaryCta": "Ver productos",
+    "secondaryCta": "Solicitar cotización",
+    "chips": {
+      "jetson": "JETSON · 275 TOPS",
+      "temp": "-40 °C → 70 °C",
+      "milstd": "MIL-STD-810",
+      "pcie": "PCIe Gen4 · 350 W"
+    }
+  },
+  "slab1": {
+    "pre": "La planta de producción se está volviendo",
+    "emphasis": "inteligente.",
+    "post": "¿Está listo tu hardware?"
+  },
+  "slab2": {
+    "pre": "1 millón de dispositivos conectados. 26 mil clientes.",
+    "since": "/ desde 2002"
+  },
+  "edgeAccordion": {
+    "eyebrow": "01 · Servicios Edge AI",
+    "rows": {
+      "rugged": {
+        "title": "Edge AI robusto",
+        "body": "Computación acelerada por NVIDIA, sin ventilador, certificada MIL-STD-810 y probada de -40 °C a 70 °C. Entrada de voltaje amplio para vehículos, subestaciones y celdas de automatización industrial — sin necesidad de centro de datos."
+      },
+      "gpu": {
+        "title": "Computación GPU",
+        "body": "Plataformas clase NUVO-10000 capaces de mover GPUs discretas de hasta 350 W en PCiE Gen4. Configuraciones multi-GPU para entrenamiento de deep learning y análisis de video en tiempo real — en el edge, bajo carga, 24/7."
+      },
+      "jetson": {
+        "title": "Plataforma Jetson",
+        "body": "NVIDIA Jetson del Orin Nano al AGX Orin, entregando hasta 275 TOPS. Carriers industriales con arranque seguro y soporte de producción a largo plazo — diséñalo una vez, envíalo por una década."
+      }
+    }
+  },
+  "platformAccordion": {
+    "eyebrow": "03 · Plataforma industrial",
+    "rows": {
+      "networking": {
+        "title": "Redes industriales",
+        "body": "Switches Ethernet gestionados y no gestionados, gateways celulares 5G/LTE y appliances de ciberseguridad OT de Moxa y Teltonika. Certificados para ubicaciones peligrosas y aplicaciones de material rodante."
+      },
+      "storage": {
+        "title": "Almacenamiento industrial",
+        "body": "SSDs y DRAM de grado industrial de Innodisk con operación de temperatura amplia, protección ante corte de energía y telemetría predictiva — almacenamiento que revela el desgaste antes de que se convierta en tiempo de inactividad."
+      },
+      "compact": {
+        "title": "Compacto sin ventilador",
+        "body": "Sistemas POC-700 del tamaño de la palma de la mano con procesadores Intel Core, PoE y opciones IP67. Ideales para kioscos, señalización digital y visión por computadora en espacios reducidos."
+      }
+    }
+  },
+  "products": {
+    "tag": "02 · Portfolio de productos",
+    "titleLine1": "Computación industrial",
+    "titleLine2": "para cada edge.",
+    "sub": "Desde PCs sin ventilador del tamaño de la palma de la mano hasta plataformas GPU de 350 W — cada sistema validado por nuestros ingenieros para tu carga de trabajo, tu rango de temperatura y tu objetivo de uptime.",
+    "exploreCta": "Explorar serie",
+    "items": {
+      "rugged-edge": {
+        "name": "Computadores Edge AI robustos",
+        "tag": "TOP DE GAMA",
+        "description": "Sistemas fanless acelerados por NVIDIA, certificados MIL-STD-810 — despliega inferencia de IA en la planta, la subestación o el vehículo sin un gateway en medio.",
+        "specs": ["-40 °C a 70 °C", "MIL-STD-810", "Fanless"]
+      },
+      "compact": {
+        "name": "PCs compactos sin ventilador",
+        "tag": "COMPACTO",
+        "description": "Serie POC-700 del tamaño de la palma, con Intel Core, PoE y opciones IP67 — alimenta kioscos, señalización y visión por computadora en espacios reducidos sin un ventilador que falle.",
+        "specs": ["Intel Core", "PoE", "IP67 disponible"]
+      },
+      "gpu": {
+        "name": "Plataformas de computación GPU",
+        "tag": "ALTO RENDIMIENTO",
+        "description": "Serie NUVO-10000 con margen para GPU discreta de 350 W y PCIe Gen4 — diseñada para análisis de video en tiempo real, entrenamiento de deep learning y sistemas autónomos.",
+        "specs": ["Hasta 350 W GPU", "PCIe Gen4", "Multi-GPU"]
+      },
+      "jetson": {
+        "name": "Plataforma Jetson Edge AI",
+        "tag": "EDGE AI",
+        "description": "NVIDIA Jetson Orin Nano → AGX Orin, sobre carriers industriales con arranque seguro — hasta 275 TOPS en un formato pequeño para montarse en cualquier lugar.",
+        "specs": ["Orin Nano → AGX", "275 TOPS", "I/O industrial"]
+      },
+      "networking": {
+        "name": "Redes industriales",
+        "tag": "REDES",
+        "description": "Ethernet gestionada, gateways 5G/LTE y appliances de seguridad OT de Moxa y Teltonika — redes endurecidas que no pierden paquetes cuando la planta se calienta.",
+        "specs": ["Moxa", "Teltonika", "Seguridad OT"]
+      },
+      "storage": {
+        "name": "Almacenamiento y memoria industriales",
+        "tag": "ALMACENAMIENTO Y MEMORIA",
+        "description": "SSDs y DRAM de Innodisk con protección ante corte de energía, operación de temperatura amplia y telemetría predictiva — almacenamiento que falla con señales antes de fallar en silencio.",
+        "specs": ["Temp. amplia", "Power-loss safe", "Telemetría"]
+      }
+    }
+  },
+  "stats": {
+    "years": "Años en la industria",
+    "devices": "Dispositivos conectados",
+    "customers": "Clientes en el mundo",
+    "support": "Soporte técnico"
+  },
+  "solutions": {
+    "tag": "04 · Soluciones por industria",
+    "titleLine1": "Desplegados en",
+    "titleLine2": "industrias críticas.",
+    "sub": "Fábricas inteligentes, subestaciones, ferrocarriles, pozos, parques eólicos y data halls — nuestro hardware opera donde una caída se mide en ingresos, seguridad o ambas.",
+    "items": {
+      "manufacturing": {
+        "name": "Manufactura",
+        "description": "Control de calidad por visión artificial, mantenimiento predictivo e inferencia en línea — detecta defectos antes de que salgan."
+      },
+      "energy": {
+        "name": "Energía y utilities",
+        "description": "SCADA, cómputo en subestaciones y telemetría de red sobre hardware calificado para el trabajo duro."
+      },
+      "transportation": {
+        "name": "Transporte",
+        "description": "Cómputo para flotas, ferrocarril y marítimo — voltaje amplio, a prueba de golpes y certificado donde importa."
+      },
+      "datacenter": {
+        "name": "Data centers",
+        "description": "Nodos edge e infraestructura de sitios remotos donde densidad, uptime y mantenibilidad pesan igual."
+      },
+      "oilgas": {
+        "name": "Petróleo y gas",
+        "description": "Monitoreo remoto, sistemas de seguridad y cómputo en wellpad para entornos extremos."
+      },
+      "renewable": {
+        "name": "Energías renovables",
+        "description": "Monitoreo solar, eólico y de almacenamiento — plataformas robustas de temperatura amplia que sobreviven al sitio, no solo a la hoja de datos."
+      }
+    }
+  },
+  "why": {
+    "tag": "05 · Por qué Neteon",
+    "titleLine1": "No solo un distribuidor.",
+    "titleLine2": "Tu socio en Edge AI.",
+    "sub": "Cada producto se despacha con el contexto, la configuración y el soporte necesarios para que funcione en campo. Esa es la diferencia entre un catálogo y un socio.",
+    "cards": {
+      "experience": {
+        "eyebrow": "22+ años",
+        "title": "ADN industrial, no reventa de catálogo",
+        "body": "Desde 2002 hemos impulsado infraestructura industrial a través de cada ola — serial, Ethernet, 4G, ahora edge AI. Conocemos los entornos donde realmente viven tus sistemas."
+      },
+      "curated": {
+        "eyebrow": "Curado",
+        "title": "Validado antes de despachar",
+        "body": "No listamos todo — listamos lo que nuestros ingenieros han probado. NVIDIA, Intel, Moxa, Neousys, Innodisk. Amplitud no sustituye ajuste."
+      },
+      "engineers": {
+        "eyebrow": "Probado en campo",
+        "title": "Ingenieros, no call centers",
+        "body": "Hablas con las mismas personas que han desplegado sistemas edge en plantas, subestaciones y vehículos. Cuando llamas, ya hemos configurado el equipo que tienes en la mano."
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "05.5 · Confianza del sector",
+    "titleLine1": "Potenciando operaciones",
+    "titleLine2": "críticas en el mundo.",
+    "sub": "Desplegados en fábricas, subestaciones y flotas — soportados por ingenieros que han configurado el mismo hardware que tú usas.",
+    "items": [
+      {
+        "quote": "El profundo conocimiento de Neteon en computación industrial y su capacidad para recomendar la plataforma correcta para nuestro despliegue de IA en planta nos ahorró meses de evaluación.",
+        "author": "Integrador de sistemas",
+        "role": "Manufactura · Taiwán"
+      },
+      {
+        "quote": "Los edge computers robustos llevan más de tres años operando 24/7 en nuestra subestación sin una sola falla. Ese es el nivel de confiabilidad que necesitamos.",
+        "author": "Gerente de infraestructura",
+        "role": "Energía · Norteamérica"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Tu próximo despliegue",
+    "titleLine2": "empieza aquí.",
+    "body": "Explora el catálogo completo de PCs industriales robustos, plataformas Edge AI y redes — en stock, validados y listos para despachar. O cuéntanos la carga de trabajo y la dimensionamos contigo en una llamada.",
+    "primaryCta": "Visitar tienda IPC →",
+    "secondaryCta": "Hablar con un ingeniero"
+  },
+  "contact": {
+    "tag": "06 · Contacto",
+    "title": "Habla con el equipo que despacha los sistemas.",
+    "sub": "Consultoría de hardware gratuita. Respuesta en un día hábil. Ventas, soporte e ingeniería en la misma línea.",
+    "labels": {
+      "phone": "Teléfono",
+      "email": "Email",
+      "corporate": "Oficina corporativa y centro de soporte",
+      "warehouse": "Almacén de despacho",
+      "sales": "Ventas y pedidos",
+      "support": "Soporte técnico",
+      "main": "Principal",
+      "tollFree": "Gratuito"
+    }
+  },
+  "footer": {
+    "tagline": "Proveedor de computadores Edge AI robustos, plataformas aceleradas por NVIDIA y redes industriales — diseñados para la confiabilidad desde 2002.",
+    "phoneMain": "Principal · 732-568-1988",
+    "phoneTollFree": "Gratuito · 888-908-3330",
+    "linkedin": "LinkedIn ↗",
+    "copyright": "© 2026 Neteon Technologies, Inc. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "cookie": "Política de cookies",
+    "columns": {
+      "products": {
+        "title": "Productos",
+        "links": {
+          "rugged": "Computadores Edge AI robustos",
+          "compact": "PCs compactos sin ventilador",
+          "gpu": "Computación GPU",
+          "jetson": "Plataforma Jetson"
+        }
+      },
+      "shop": {
+        "title": "Tienda",
+        "links": {
+          "ipc": "Computadora industrial",
+          "moxa": "Tienda Moxa",
+          "iiot": "IoT industrial"
+        }
+      },
+      "resources": {
+        "title": "Recursos",
+        "links": {
+          "shipping": "Envíos y pedidos",
+          "support": "Soporte técnico",
+          "warranty": "Garantía y devoluciones",
+          "blogAi": "Blog Neteon.ai",
+          "blogNet": "Blog Neteon.net"
+        }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "why": "Por qué Neteon",
+          "contact": "Contacto",
+          "linkedin": "LinkedIn"
+        }
+      }
+    }
+  }
+}

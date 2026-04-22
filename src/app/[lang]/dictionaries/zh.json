@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Neteon.ai — 工業運算,AI 就緒。",
+    "description": "Neteon.ai 是堅固工業電腦、邊緣 AI 平台與 NVIDIA 加速運算的可靠夥伴 — 為最嚴苛的環境而設計,背後有超過 22 年的工程經驗。"
+  },
+  "announcement": {
+    "text": "邊緣 AI 平台現貨供應。免費硬體諮詢 — 一通電話為您的工作負載配置完成。",
+    "ctaLabel": "瀏覽型錄"
+  },
+  "nav": {
+    "products": "產品",
+    "solutions": "解決方案",
+    "why": "為什麼選 Neteon",
+    "contact": "聯絡我們",
+    "blog": "部落格",
+    "shopCta": "IPC 商店",
+    "quoteCta": "索取報價",
+    "languageLabel": "語言",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單"
+  },
+  "hero": {
+    "eyebrow": "工業 PC · 邊緣 AI · 始於 2002",
+    "titleLine1": "工業運算,",
+    "titleLine2Emphasis": "AI 就緒。",
+    "sub": "NVIDIA 加速邊緣 AI 系統,專為 -40 °C 至 70 °C 環境設計 — 經驗證出貨,由工程師支援,以 22 年現場經驗作後盾。",
+    "distributorLine": "授權代理 · NVIDIA · Intel · Moxa · Neousys · Innodisk",
+    "primaryCta": "瀏覽產品",
+    "secondaryCta": "索取報價",
+    "chips": {
+      "jetson": "JETSON · 275 TOPS",
+      "temp": "-40 °C → 70 °C",
+      "milstd": "MIL-STD-810",
+      "pcie": "PCIe Gen4 · 350 W"
+    }
+  },
+  "slab1": {
+    "pre": "產線正在變得",
+    "emphasis": "智慧化。",
+    "post": "您的硬體準備好了嗎?"
+  },
+  "slab2": {
+    "pre": "100 萬台連網裝置。26 千家客戶。",
+    "since": "/ 自 2002 年起"
+  },
+  "edgeAccordion": {
+    "eyebrow": "01 · 邊緣 AI 服務",
+    "rows": {
+      "rugged": {
+        "title": "堅固邊緣 AI",
+        "body": "無風扇 NVIDIA 加速運算,通過 MIL-STD-810 認證,-40 °C 至 70 °C 測試。寬電壓輸入適用車載、變電站和工業自動化單元 — 無需資料中心。"
+      },
+      "gpu": {
+        "title": "GPU 運算",
+        "body": "NUVO-10000 等級平台,支援 PCIe Gen4 上最高 350 W 獨立 GPU。多 GPU 配置適用深度學習訓練與即時影像分析 — 在邊緣、在高負載、24/7。"
+      },
+      "jetson": {
+        "title": "Jetson 平台",
+        "body": "NVIDIA Jetson 從 Orin Nano 到 AGX Orin,提供最高 275 TOPS。工業 I/O 載板搭配安全啟動與長供貨支援 — 一次設計,十年出貨。"
+      }
+    }
+  },
+  "platformAccordion": {
+    "eyebrow": "03 · 工業平台",
+    "rows": {
+      "networking": {
+        "title": "工業網路",
+        "body": "Moxa 與 Teltonika 的管理型與非管理型乙太交換器、5G/LTE 蜂巢閘道與 OT 資安裝置。適用危險區域與軌道車輛應用認證。"
+      },
+      "storage": {
+        "title": "工業儲存",
+        "body": "Innodisk 工業級 SSD 與 DRAM,寬溫運作、斷電保護、預測性健康遙測 — 在磨耗變成停機前先發聲的儲存。"
+      },
+      "compact": {
+        "title": "無風扇緊湊",
+        "body": "手掌大小的 POC-700 系統,Intel Core 處理器、PoE 與 IP67 選項。適合小型空間的亭台、數位看板與機器視覺應用。"
+      }
+    }
+  },
+  "products": {
+    "tag": "02 · 產品組合",
+    "titleLine1": "為每個邊緣而生的",
+    "titleLine2": "工業運算。",
+    "sub": "從掌上型無風扇 PC 到 350 W GPU 平台 — 每個系統都由我們的工程師針對您的工作負載、溫度範圍與可用性目標進行驗證。",
+    "exploreCta": "探索系列",
+    "items": {
+      "rugged-edge": {
+        "name": "堅固邊緣 AI 電腦",
+        "tag": "旗艦",
+        "description": "NVIDIA 加速無風扇系統,通過 MIL-STD-810 認證 — 在廠房、變電站或車載中直接部署 AI 推論,無需中間閘道。",
+        "specs": ["-40 °C 至 70 °C", "MIL-STD-810", "無風扇"]
+      },
+      "compact": {
+        "name": "無風扇緊湊 PC",
+        "tag": "緊湊",
+        "description": "手掌大小的 POC-700 系列,配備 Intel Core、PoE 與 IP67 選項 — 在亭台、看板與窄小機器視覺單元中運作,不必擔心風扇故障。",
+        "specs": ["Intel Core", "PoE", "IP67 可選"]
+      },
+      "gpu": {
+        "name": "GPU 運算平台",
+        "tag": "高效能",
+        "description": "NUVO-10000 系列支援 350 W 獨立 GPU 及 PCIe Gen4 — 為即時影像分析、深度學習訓練與自主系統而生。",
+        "specs": ["最高 350 W GPU", "PCIe Gen4", "多 GPU"]
+      },
+      "jetson": {
+        "name": "Jetson 邊緣 AI 平台",
+        "tag": "邊緣 AI",
+        "description": "NVIDIA Jetson Orin Nano → AGX Orin,搭載工業 I/O 載板與安全啟動 — 在任何地方都能掛載,最高 275 TOPS。",
+        "specs": ["Orin Nano → AGX", "275 TOPS", "工業 I/O"]
+      },
+      "networking": {
+        "name": "工業網路",
+        "tag": "網路",
+        "description": "Moxa 與 Teltonika 的管理型乙太網、5G/LTE 閘道與 OT 安全設備 — 在工廠升溫時也不掉封包的堅固網路。",
+        "specs": ["Moxa", "Teltonika", "OT 安全"]
+      },
+      "storage": {
+        "name": "工業儲存與記憶體",
+        "tag": "儲存與記憶體",
+        "description": "Innodisk SSD 與 DRAM,斷電保護、寬溫運作、預測健康遙測 — 與其悄悄壞掉,不如提前警示的儲存。",
+        "specs": ["寬溫", "斷電保護", "健康遙測"]
+      }
+    }
+  },
+  "stats": {
+    "years": "業界耕耘年數",
+    "devices": "連網裝置",
+    "customers": "全球客戶",
+    "support": "技術支援"
+  },
+  "solutions": {
+    "tag": "04 · 產業解決方案",
+    "titleLine1": "部署於關鍵",
+    "titleLine2": "產業現場。",
+    "sub": "智慧工廠、變電站、軌道、井場、風場與資料機房 — 當停機以營收或安全衡量時,我們的硬體就在現場運轉。",
+    "items": {
+      "manufacturing": {
+        "name": "製造業",
+        "description": "機器視覺品質檢測、預測維護與產線側推論 — 在出貨前攔截瑕疵。"
+      },
+      "energy": {
+        "name": "能源與公用事業",
+        "description": "SCADA、變電站邊緣運算與電網遙測,在為艱難任務設計的硬體上運作。"
+      },
+      "transportation": {
+        "name": "運輸",
+        "description": "車隊、鐵路與海運運算 — 寬電壓、抗震,通過必要認證。"
+      },
+      "datacenter": {
+        "name": "資料中心",
+        "description": "邊緣節點與遠端站點基礎設施,密度、可用性與可維運性同等重要。"
+      },
+      "oilgas": {
+        "name": "石油與天然氣",
+        "description": "遠端監控、安全系統與井場運算,為極端環境而生。"
+      },
+      "renewable": {
+        "name": "再生能源",
+        "description": "太陽能、風力與儲能監控 — 堅固的寬溫平台,不只在資料表上存活。"
+      }
+    }
+  },
+  "why": {
+    "tag": "05 · 為什麼選 Neteon",
+    "titleLine1": "不只是代理商。",
+    "titleLine2": "您的邊緣 AI 夥伴。",
+    "sub": "每項產品都附上在現場運作所需的上下文、配置與支援。這就是型錄與夥伴的差別。",
+    "cards": {
+      "experience": {
+        "eyebrow": "22+ 年",
+        "title": "工業 DNA,不是型錄通路",
+        "body": "自 2002 年以來,我們伴隨每一波浪潮為工業基礎設施供電 — 序列、乙太、4G,如今的邊緣 AI。我們熟悉您的系統真正運作的環境。"
+      },
+      "curated": {
+        "eyebrow": "精選",
+        "title": "出貨前先驗證",
+        "body": "我們不全賣 — 只列出工程師驗證過的。NVIDIA、Intel、Moxa、Neousys、Innodisk。廣度無法取代合適度。"
+      },
+      "engineers": {
+        "eyebrow": "現場實證",
+        "title": "工程師,不是客服中心",
+        "body": "您接觸到的就是在廠房、變電站與車輛實際部署過邊緣系統的同一群人。您來電時,我們已設定過您手上的那台機器。"
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "05.5 · 產業的信賴",
+    "titleLine1": "為全球關鍵",
+    "titleLine2": "營運提供動力。",
+    "sub": "部署於工廠、變電站與車隊 — 由實際設定過您所使用硬體的工程師提供支援。",
+    "items": [
+      {
+        "quote": "Neteon 對工業運算的深厚理解,以及他們為我們工廠 AI 部署推薦正確平台的能力,為我們省下數個月的評估時間。",
+        "author": "系統整合商",
+        "role": "製造 · 台灣"
+      },
+      {
+        "quote": "這些堅固邊緣電腦在我們變電站 24/7 運作超過三年,未發生一次故障。這正是我們所需的可靠度。",
+        "author": "基礎設施經理",
+        "role": "能源 · 北美"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "您的下一個部署",
+    "titleLine2": "從這裡開始。",
+    "body": "瀏覽堅固工業 PC、邊緣 AI 平台與網通產品的完整型錄 — 現貨、已驗證、可立即出貨。或告訴我們工作負載,一通電話為您配置完成。",
+    "primaryCta": "前往 IPC 商店 →",
+    "secondaryCta": "與工程師談談"
+  },
+  "contact": {
+    "tag": "06 · 聯絡我們",
+    "title": "直接與出貨系統的團隊對話。",
+    "sub": "免費硬體諮詢。一個工作天內回覆。業務、支援、工程同一條線。",
+    "labels": {
+      "phone": "電話",
+      "email": "Email",
+      "corporate": "總部與支援中心",
+      "warehouse": "出貨倉庫",
+      "sales": "業務與訂購",
+      "support": "技術支援",
+      "main": "總機",
+      "tollFree": "免付費"
+    }
+  },
+  "footer": {
+    "tagline": "堅固邊緣 AI 電腦、NVIDIA 加速平台與工業網通的提供者 — 自 2002 年起為可靠度而設計。",
+    "phoneMain": "總機 · 732-568-1988",
+    "phoneTollFree": "免付費 · 888-908-3330",
+    "linkedin": "LinkedIn ↗",
+    "copyright": "© 2026 Neteon Technologies, Inc. 版權所有。",
+    "privacy": "隱私政策",
+    "cookie": "Cookie 政策",
+    "columns": {
+      "products": {
+        "title": "產品",
+        "links": {
+          "rugged": "堅固邊緣 AI 電腦",
+          "compact": "無風扇緊湊 PC",
+          "gpu": "GPU 運算",
+          "jetson": "Jetson 平台"
+        }
+      },
+      "shop": {
+        "title": "商店",
+        "links": {
+          "ipc": "工業電腦",
+          "moxa": "Moxa 商店",
+          "iiot": "工業物聯網"
+        }
+      },
+      "resources": {
+        "title": "資源",
+        "links": {
+          "shipping": "出貨與訂購",
+          "support": "技術支援",
+          "warranty": "保固與退換",
+          "blogAi": "Neteon.ai 部落格",
+          "blogNet": "Neteon.net 部落格"
+        }
+      },
+      "company": {
+        "title": "公司",
+        "links": {
+          "why": "為什麼選 Neteon",
+          "contact": "聯絡我們",
+          "linkedin": "LinkedIn"
+        }
+      }
+    }
+  }
+}

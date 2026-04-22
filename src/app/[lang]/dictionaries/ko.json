@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Neteon.ai — 산업용 컴퓨팅, AI 레디.",
+    "description": "Neteon.ai는 러기드 산업용 PC, Edge AI 플랫폼, NVIDIA 가속 컴퓨팅의 신뢰 파트너입니다. 가장 가혹한 환경을 위해 설계되었으며, 22년 이상의 엔지니어링 경험으로 뒷받침됩니다."
+  },
+  "announcement": {
+    "text": "Edge AI 플랫폼 재고 보유. 무상 하드웨어 컨설팅 — 워크로드에 맞춰 한 통의 전화로 사양을 정리해 드립니다.",
+    "ctaLabel": "카탈로그 보기"
+  },
+  "nav": {
+    "products": "제품",
+    "solutions": "솔루션",
+    "why": "Neteon인 이유",
+    "contact": "문의하기",
+    "blog": "블로그",
+    "shopCta": "IPC 스토어",
+    "quoteCta": "견적 요청",
+    "languageLabel": "언어",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기"
+  },
+  "hero": {
+    "eyebrow": "산업용 PC · EDGE AI · 2002년 설립",
+    "titleLine1": "산업용 컴퓨팅,",
+    "titleLine2Emphasis": "AI 레디.",
+    "sub": "NVIDIA 가속 Edge AI 시스템 — -40 °C ~ 70 °C 환경을 위해 설계되고, 검증을 마친 상태로 출하되며, 엔지니어가 지원하고, 22년 현장 경험이 뒷받침합니다.",
+    "distributorLine": "공인 총판 · NVIDIA · Intel · Moxa · Neousys · Innodisk",
+    "primaryCta": "제품 살펴보기",
+    "secondaryCta": "견적 요청",
+    "chips": {
+      "jetson": "JETSON · 275 TOPS",
+      "temp": "-40 °C → 70 °C",
+      "milstd": "MIL-STD-810",
+      "pcie": "PCIe Gen4 · 350 W"
+    }
+  },
+  "slab1": {
+    "pre": "공장이",
+    "emphasis": "지능화되고 있습니다.",
+    "post": "귀사의 하드웨어는 준비되어 있습니까?"
+  },
+  "slab2": {
+    "pre": "100만 대 연결 디바이스. 2만 6천 고객사.",
+    "since": "/ 2002년 이래"
+  },
+  "edgeAccordion": {
+    "eyebrow": "01 · Edge AI 서비스",
+    "rows": {
+      "rugged": {
+        "title": "러기드 Edge AI",
+        "body": "팬리스 NVIDIA 가속 컴퓨팅. MIL-STD-810 인증, -40 °C ~ 70 °C 검증. 광역 전압 입력으로 차량·변전소·산업 자동화 셀에 대응 — 데이터센터 불필요."
+      },
+      "gpu": {
+        "title": "GPU 컴퓨팅",
+        "body": "NUVO-10000급 플랫폼이 PCIe Gen4로 최대 350W 디스크리트 GPU를 구동합니다. 딥러닝 학습과 실시간 영상 분석을 위한 멀티 GPU 구성 — 엣지에서, 부하 상태에서, 24/7."
+      },
+      "jetson": {
+        "title": "Jetson 플랫폼",
+        "body": "NVIDIA Jetson Orin Nano ~ AGX Orin, 최대 275 TOPS. 산업용 I/O 캐리어에 시큐어 부트와 장기 공급 지원 — 한 번 설계하고 10년간 출하할 수 있도록."
+      }
+    }
+  },
+  "platformAccordion": {
+    "eyebrow": "03 · 산업용 플랫폼",
+    "rows": {
+      "networking": {
+        "title": "산업용 네트워킹",
+        "body": "Moxa와 Teltonika의 관리형·비관리형 Ethernet 스위치, 5G/LTE 셀룰러 게이트웨이, OT 사이버보안 어플라이언스. 위험 구역과 철도 차량 배포 인증을 획득했습니다."
+      },
+      "storage": {
+        "title": "산업용 스토리지",
+        "body": "Innodisk 산업용 SSD와 DRAM. 광역 온도 동작, 전원 차단 보호, 예측형 디스크 상태 텔레메트리 — 마모가 다운타임이 되기 전에 먼저 알려 주는 스토리지."
+      },
+      "compact": {
+        "title": "팬리스 컴팩트",
+        "body": "손바닥 크기의 POC-700 시스템 — Intel Core 프로세서, PoE, IP67 옵션. 키오스크, 디지털 사이니지, 공간이 제한된 머신 비전 배포에 최적입니다."
+      }
+    }
+  },
+  "products": {
+    "tag": "02 · 제품 라인업",
+    "titleLine1": "모든 엣지를 위한",
+    "titleLine2": "산업용 컴퓨팅.",
+    "sub": "손바닥 크기의 팬리스 PC부터 350W GPU 플랫폼까지 — 모든 시스템은 귀사의 워크로드, 온도 범위, 가동률 목표에 맞춰 자체 엔지니어가 검증합니다.",
+    "exploreCta": "시리즈 살펴보기",
+    "items": {
+      "rugged-edge": {
+        "name": "러기드 Edge AI 컴퓨터",
+        "tag": "플래그십",
+        "description": "NVIDIA 가속 팬리스 시스템, MIL-STD-810 인증 — 게이트웨이 없이 공장, 변전소, 차량에 AI 추론을 바로 배포합니다.",
+        "specs": ["-40 °C ~ 70 °C", "MIL-STD-810", "팬리스"]
+      },
+      "compact": {
+        "name": "팬리스 컴팩트 PC",
+        "tag": "컴팩트",
+        "description": "손바닥 크기의 POC-700 시리즈, Intel Core, PoE, IP67 옵션 — 키오스크, 사이니지, 공간 제한된 머신 비전 셀을 팬 고장 걱정 없이 운용합니다.",
+        "specs": ["Intel Core", "PoE", "IP67 옵션"]
+      },
+      "gpu": {
+        "name": "GPU 컴퓨팅 플랫폼",
+        "tag": "고성능",
+        "description": "NUVO-10000 시리즈, 350W 디스크리트 GPU와 PCIe Gen4 지원 — 실시간 영상 분석, 딥러닝 학습, 자율 시스템에 최적화.",
+        "specs": ["최대 350W GPU", "PCIe Gen4", "멀티 GPU"]
+      },
+      "jetson": {
+        "name": "Jetson Edge AI 플랫폼",
+        "tag": "EDGE AI",
+        "description": "NVIDIA Jetson Orin Nano → AGX Orin, 산업용 I/O 캐리어에 시큐어 부트 — 어디에나 장착 가능한 작은 폼팩터에서 275 TOPS.",
+        "specs": ["Orin Nano → AGX", "275 TOPS", "산업 I/O"]
+      },
+      "networking": {
+        "name": "산업용 네트워킹",
+        "tag": "네트워킹",
+        "description": "Moxa, Teltonika의 관리형 Ethernet, 5G/LTE 게이트웨이, OT 보안 어플라이언스 — 현장이 달아올라도 패킷을 잃지 않는 견고한 네트워크.",
+        "specs": ["Moxa", "Teltonika", "OT 보안"]
+      },
+      "storage": {
+        "name": "산업용 스토리지 & 메모리",
+        "tag": "스토리지 & 메모리",
+        "description": "Innodisk SSD와 DRAM, 전원 차단 보호, 광역 온도 동작, 예측형 상태 텔레메트리 — 조용히 고장나기 전에 분명히 알려 주는 스토리지.",
+        "specs": ["광역 온도", "전원 차단 보호", "텔레메트리"]
+      }
+    }
+  },
+  "stats": {
+    "years": "업계 경험 연수",
+    "devices": "연결 디바이스",
+    "customers": "글로벌 고객사",
+    "support": "기술 지원"
+  },
+  "solutions": {
+    "tag": "04 · 산업별 솔루션",
+    "titleLine1": "핵심 산업 현장에",
+    "titleLine2": "배포되고 있습니다.",
+    "sub": "스마트 팩토리, 변전소, 철도, 유정, 풍력단지, 데이터 홀 — 다운타임이 매출이나 안전으로 환산되는 현장에서 저희 하드웨어가 돌아갑니다.",
+    "items": {
+      "manufacturing": {
+        "name": "제조",
+        "description": "머신 비전 QA, 예지 보전, 라인사이드 추론 — 출하 전에 결함을 잡아냅니다."
+      },
+      "energy": {
+        "name": "에너지·유틸리티",
+        "description": "SCADA, 변전소 엣지 컴퓨트, 그리드 텔레메트리. 가혹한 일을 위해 설계된 하드웨어 위에서."
+      },
+      "transportation": {
+        "name": "운송",
+        "description": "플릿, 철도, 해상용 컴퓨트 — 광역 전압, 충격 대응, 필요한 인증 완비."
+      },
+      "datacenter": {
+        "name": "데이터센터",
+        "description": "밀도·가동률·유지보수성이 동등하게 중요한 엣지 노드와 원격지 인프라."
+      },
+      "oilgas": {
+        "name": "석유·가스",
+        "description": "원격 모니터링, 안전 시스템, 웰패드 컴퓨트 — 극한 환경을 위해 설계되었습니다."
+      },
+      "renewable": {
+        "name": "신재생 에너지",
+        "description": "태양광·풍력·ESS 모니터링 — 데이터시트가 아닌 현장을 견뎌내는 러기드 광역 온도 플랫폼."
+      }
+    }
+  },
+  "why": {
+    "tag": "05 · Neteon인 이유",
+    "titleLine1": "단순한 총판이 아닙니다.",
+    "titleLine2": "귀사의 Edge AI 파트너입니다.",
+    "sub": "모든 제품은 현장에서 돌아가는 데 필요한 맥락, 구성, 지원과 함께 출하됩니다. 카탈로그와 파트너의 차이입니다.",
+    "cards": {
+      "experience": {
+        "eyebrow": "22년 이상",
+        "title": "카탈로그 리셀러가 아닌 산업 DNA",
+        "body": "2002년 이래 시리얼에서 Ethernet, 4G, 이제는 엣지 AI까지 모든 기술 전환기를 함께해 왔습니다. 귀사의 시스템이 실제로 놓이는 환경을 이해합니다."
+      },
+      "curated": {
+        "eyebrow": "큐레이션",
+        "title": "출하 전에 검증",
+        "body": "전부 취급하지 않습니다 — 자체 엔지니어가 테스트한 것만 취급합니다. NVIDIA, Intel, Moxa, Neousys, Innodisk. 폭은 적합성을 대체할 수 없습니다."
+      },
+      "engineers": {
+        "eyebrow": "현장 실증",
+        "title": "콜센터가 아닌 엔지니어",
+        "body": "공장, 변전소, 차량에 엣지 시스템을 직접 배치해 본 바로 그 엔지니어가 응대합니다. 전화를 주시면, 귀사의 장비를 실제로 구성해 본 사람이 받습니다."
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "05.5 · 산업의 신뢰",
+    "titleLine1": "전 세계 핵심",
+    "titleLine2": "운영 현장을 가동합니다.",
+    "sub": "공장, 변전소, 플릿에 배포 — 동일한 하드웨어를 실제로 구성해 본 엔지니어가 지원합니다.",
+    "items": [
+      {
+        "quote": "Neteon의 산업용 컴퓨팅에 대한 깊은 이해와, 공장 AI 프로젝트에 맞는 플랫폼을 정확히 제안해 준 역량 덕분에 몇 달간의 평가 시간을 절약할 수 있었습니다.",
+        "author": "시스템 통합사",
+        "role": "제조 · 대만"
+      },
+      {
+        "quote": "러기드 Edge 컴퓨터를 저희 변전소에서 3년 넘게 24시간 운영해 왔지만, 단 한 번의 장애도 없었습니다. 저희가 필요로 하는 바로 그 수준의 신뢰성입니다.",
+        "author": "인프라 매니저",
+        "role": "에너지 · 북미"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "다음 프로젝트는",
+    "titleLine2": "여기서 시작됩니다.",
+    "body": "러기드 산업용 PC, Edge AI 플랫폼, 네트워킹의 전체 카탈로그를 확인하세요 — 재고 보유, 검증 완료, 즉시 출하 가능. 또는 워크로드를 알려 주시면 한 통의 전화로 사양을 정리해 드립니다.",
+    "primaryCta": "IPC 스토어 방문 →",
+    "secondaryCta": "엔지니어와 상담"
+  },
+  "contact": {
+    "tag": "06 · 문의하기",
+    "title": "시스템을 출하하는 팀과 직접 대화하세요.",
+    "sub": "무상 하드웨어 컨설팅. 영업일 1일 이내 회신. 영업·기술지원·엔지니어링이 같은 라인에서 응대합니다.",
+    "labels": {
+      "phone": "전화",
+      "email": "이메일",
+      "corporate": "본사 & 지원 센터",
+      "warehouse": "출하 창고",
+      "sales": "영업 & 주문",
+      "support": "기술 지원",
+      "main": "대표",
+      "tollFree": "수신자 부담"
+    }
+  },
+  "footer": {
+    "tagline": "러기드 Edge AI 컴퓨터, NVIDIA 가속 플랫폼, 산업용 네트워킹 공급자 — 2002년부터 신뢰성을 설계해 왔습니다.",
+    "phoneMain": "대표 · 732-568-1988",
+    "phoneTollFree": "수신자 부담 · 888-908-3330",
+    "linkedin": "LinkedIn ↗",
+    "copyright": "© 2026 Neteon Technologies, Inc. 모든 권리 보유.",
+    "privacy": "개인정보 처리방침",
+    "cookie": "쿠키 정책",
+    "columns": {
+      "products": {
+        "title": "제품",
+        "links": {
+          "rugged": "러기드 Edge AI 컴퓨터",
+          "compact": "팬리스 컴팩트 PC",
+          "gpu": "GPU 컴퓨팅",
+          "jetson": "Jetson 플랫폼"
+        }
+      },
+      "shop": {
+        "title": "스토어",
+        "links": {
+          "ipc": "산업용 컴퓨터",
+          "moxa": "Moxa 스토어",
+          "iiot": "산업 IoT"
+        }
+      },
+      "resources": {
+        "title": "리소스",
+        "links": {
+          "shipping": "출하 & 주문",
+          "support": "기술 지원",
+          "warranty": "보증 & 반품",
+          "blogAi": "Neteon.ai 블로그",
+          "blogNet": "Neteon.net 블로그"
+        }
+      },
+      "company": {
+        "title": "회사",
+        "links": {
+          "why": "Neteon인 이유",
+          "contact": "문의하기",
+          "linkedin": "LinkedIn"
+        }
+      }
+    }
+  }
+}

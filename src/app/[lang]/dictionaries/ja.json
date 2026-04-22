@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Neteon.ai — 産業用コンピューティング、AI対応。",
+    "description": "Neteon.aiは堅牢な産業用PC、エッジAIプラットフォーム、NVIDIAアクセラレーテッドコンピューティングの信頼できるパートナーです。最も過酷な環境向けに設計され、22年以上のエンジニアリング経験に支えられています。"
+  },
+  "announcement": {
+    "text": "エッジAIプラットフォームを在庫から即納。無料ハードウェア相談 — ワークロードに合わせた構成を1コールで提案します。",
+    "ctaLabel": "カタログを見る"
+  },
+  "nav": {
+    "products": "製品",
+    "solutions": "ソリューション",
+    "why": "Neteonが選ばれる理由",
+    "contact": "お問い合わせ",
+    "blog": "ブログ",
+    "shopCta": "IPCストア",
+    "quoteCta": "見積もり依頼",
+    "languageLabel": "言語",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
+  },
+  "hero": {
+    "eyebrow": "産業用PC · EDGE AI · 2002年創業",
+    "titleLine1": "産業用コンピューティング、",
+    "titleLine2Emphasis": "AI対応。",
+    "sub": "NVIDIAアクセラレーテッドのエッジAIシステムを -40 °C ~ 70 °C で動作するよう設計。検証済みで出荷、エンジニアがサポート、22年の現場経験が支えます。",
+    "distributorLine": "正規代理店 · NVIDIA · Intel · Moxa · Neousys · Innodisk",
+    "primaryCta": "製品を見る",
+    "secondaryCta": "見積もり依頼",
+    "chips": {
+      "jetson": "JETSON · 275 TOPS",
+      "temp": "-40 °C → 70 °C",
+      "milstd": "MIL-STD-810",
+      "pcie": "PCIe Gen4 · 350 W"
+    }
+  },
+  "slab1": {
+    "pre": "工場現場は",
+    "emphasis": "知能化しています。",
+    "post": "ハードウェアは準備できていますか?"
+  },
+  "slab2": {
+    "pre": "100万台の接続デバイス。2万6千社のお客様。",
+    "since": "/ 2002年より"
+  },
+  "edgeAccordion": {
+    "eyebrow": "01 · エッジAIサービス",
+    "rows": {
+      "rugged": {
+        "title": "堅牢エッジAI",
+        "body": "ファンレスのNVIDIAアクセラレーテッドコンピュート。MIL-STD-810認証、-40 °C ~ 70 °C 動作。ワイドレンジ電源入力で、車両・変電所・自動化セルに対応 — データセンター不要。"
+      },
+      "gpu": {
+        "title": "GPUコンピューティング",
+        "body": "NUVO-10000クラスのプラットフォームで、最大350 W ディスクリートGPUをPCIe Gen4で駆動。ディープラーニング学習とリアルタイム映像解析のマルチGPU構成 — エッジで、負荷下で、24/7。"
+      },
+      "jetson": {
+        "title": "Jetsonプラットフォーム",
+        "body": "NVIDIA Jetson Orin Nano から AGX Orin まで、最大275 TOPS。産業I/Oキャリアとセキュアブート、長期供給サポート — 一度設計すれば10年出荷できます。"
+      }
+    }
+  },
+  "platformAccordion": {
+    "eyebrow": "03 · 産業用プラットフォーム",
+    "rows": {
+      "networking": {
+        "title": "産業ネットワーク",
+        "body": "Moxa/Teltonika の管理型・非管理型Ethernetスイッチ、5G/LTEセルラーゲートウェイ、OTサイバーセキュリティアプライアンス。危険区域・鉄道車両向け認証取得。"
+      },
+      "storage": {
+        "title": "産業用ストレージ",
+        "body": "Innodisk の産業用SSDとDRAM。広温度動作、停電保護、予測健全性テレメトリ — 停止する前にサインを出すストレージ。"
+      },
+      "compact": {
+        "title": "ファンレスコンパクト",
+        "body": "POC-700シリーズは手のひらサイズ。Intel Core、PoE、IP67オプションを備え、キオスク・デジタルサイネージ・省スペースのマシンビジョンに最適。"
+      }
+    }
+  },
+  "products": {
+    "tag": "02 · 製品ポートフォリオ",
+    "titleLine1": "あらゆるエッジに、",
+    "titleLine2": "産業用コンピューティングを。",
+    "sub": "手のひらサイズのファンレスPCから350 W GPUプラットフォームまで — エンジニアがあなたのワークロード、温度帯、稼働率目標に合わせて検証します。",
+    "exploreCta": "シリーズを見る",
+    "items": {
+      "rugged-edge": {
+        "name": "堅牢エッジAIコンピュータ",
+        "tag": "フラッグシップ",
+        "description": "NVIDIAアクセラレーテッドのファンレスシステム、MIL-STD-810認証 — 工場、変電所、車両にゲートウェイ不要でAI推論を展開。",
+        "specs": ["-40 °C ~ 70 °C", "MIL-STD-810", "ファンレス"]
+      },
+      "compact": {
+        "name": "ファンレスコンパクトPC",
+        "tag": "コンパクト",
+        "description": "手のひらサイズのPOC-700シリーズ。Intel Core、PoE、IP67オプション — キオスクやサイネージ、省スペースのマシンビジョンにファン故障なしで対応。",
+        "specs": ["Intel Core", "PoE", "IP67対応"]
+      },
+      "gpu": {
+        "name": "GPUコンピューティングプラットフォーム",
+        "tag": "ハイパフォーマンス",
+        "description": "NUVO-10000シリーズ、350 W ディスクリートGPUとPCIe Gen4対応 — リアルタイム映像解析、ディープラーニング学習、自律システムに最適化。",
+        "specs": ["最大350 W GPU", "PCIe Gen4", "マルチGPU"]
+      },
+      "jetson": {
+        "name": "Jetson エッジAIプラットフォーム",
+        "tag": "EDGE AI",
+        "description": "NVIDIA Jetson Orin Nano → AGX Orin、産業I/Oキャリアとセキュアブート搭載 — 275 TOPS をどこにでも搭載できる小型フットプリントで。",
+        "specs": ["Orin Nano → AGX", "275 TOPS", "産業I/O"]
+      },
+      "networking": {
+        "name": "産業ネットワーク",
+        "tag": "ネットワーキング",
+        "description": "Moxa、Teltonika の管理型Ethernet、5G/LTEゲートウェイ、OTセキュリティアプライアンス — 工場が熱くなってもパケットを落とさない堅牢なネットワーク。",
+        "specs": ["Moxa", "Teltonika", "OTセキュリティ"]
+      },
+      "storage": {
+        "name": "産業用ストレージ&メモリ",
+        "tag": "ストレージ&メモリ",
+        "description": "Innodisk SSDとDRAM。停電保護、広温度動作、予測健全性テレメトリ — 静かに壊れる前にはっきりと通知するストレージ。",
+        "specs": ["広温度", "停電保護", "テレメトリ"]
+      }
+    }
+  },
+  "stats": {
+    "years": "業界経験年数",
+    "devices": "接続デバイス",
+    "customers": "世界のお客様",
+    "support": "テクニカルサポート"
+  },
+  "solutions": {
+    "tag": "04 · 業種別ソリューション",
+    "titleLine1": "クリティカルな産業に",
+    "titleLine2": "導入されています。",
+    "sub": "スマートファクトリー、変電所、鉄道、油井、風力発電、データホール — 停止が売上や安全に直結する現場で稼働します。",
+    "items": {
+      "manufacturing": {
+        "name": "製造業",
+        "description": "マシンビジョンQA、予知保全、ライン側推論 — 不良を出荷前に捕まえる。"
+      },
+      "energy": {
+        "name": "エネルギー&ユーティリティ",
+        "description": "SCADA、変電所エッジコンピュート、グリッドテレメトリ。タフな仕事に対応するハードウェアで。"
+      },
+      "transportation": {
+        "name": "輸送",
+        "description": "車両、鉄道、船舶向けコンピュート — ワイド電圧、耐衝撃、必要な認証を取得。"
+      },
+      "datacenter": {
+        "name": "データセンター",
+        "description": "密度、稼働率、保守性を同等に重視するエッジノードとリモート拠点インフラ。"
+      },
+      "oilgas": {
+        "name": "石油&ガス",
+        "description": "遠隔監視、安全システム、ウェルパッドコンピュート。過酷環境向けに設計。"
+      },
+      "renewable": {
+        "name": "再生可能エネルギー",
+        "description": "太陽光、風力、蓄電のモニタリング — データシートだけでなく現場で生き残る堅牢プラットフォーム。"
+      }
+    }
+  },
+  "why": {
+    "tag": "05 · Neteonが選ばれる理由",
+    "titleLine1": "単なる代理店ではありません。",
+    "titleLine2": "あなたのエッジAIパートナー。",
+    "sub": "すべての製品に、現場で動作させるために必要なコンテキスト・構成・サポートを添えて出荷します。それがカタログとパートナーの違いです。",
+    "cards": {
+      "experience": {
+        "eyebrow": "22年以上",
+        "title": "産業のDNA、カタログ転売ではない",
+        "body": "2002年以来、シリアルからEthernet、4G、エッジAIまで、あらゆる技術の波で産業インフラを支えてきました。あなたのシステムが実際に置かれる環境を知っています。"
+      },
+      "curated": {
+        "eyebrow": "厳選",
+        "title": "出荷前に検証",
+        "body": "何でも扱うわけではありません。自社エンジニアがテストしたものだけ。NVIDIA、Intel、Moxa、Neousys、Innodisk。幅広さはフィットの代わりになりません。"
+      },
+      "engineers": {
+        "eyebrow": "現場で実証",
+        "title": "コールセンターではなくエンジニア",
+        "body": "工場、変電所、車両にエッジシステムを展開してきたのと同じ人間が対応します。お電話いただく頃には、あなたが手にしている機器を構成した経験があります。"
+      }
+    }
+  },
+  "testimonials": {
+    "tag": "05.5 · 業界の信頼",
+    "titleLine1": "重要なオペレーションを",
+    "titleLine2": "世界中で支えています。",
+    "sub": "工場、変電所、車両に導入 — お使いのハードウェアを実際に構成した経験のあるエンジニアがサポートします。",
+    "items": [
+      {
+        "quote": "Neteonの産業用コンピューティングへの深い知見と、工場AI展開に適したプラットフォームを的確に提案してくれたおかげで、数ヶ月の評価期間を節約できました。",
+        "author": "システムインテグレーター",
+        "role": "製造 · 台湾"
+      },
+      {
+        "quote": "堅牢エッジコンピュータは変電所で3年以上24時間稼働しており、一度も故障していません。まさに必要とする信頼性です。",
+        "author": "インフラマネージャー",
+        "role": "エネルギー · 北米"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "次の導入は",
+    "titleLine2": "ここから始まります。",
+    "body": "堅牢な産業用PC、エッジAIプラットフォーム、ネットワーク製品の完全カタログをご覧ください — 在庫あり、検証済み、即納可能。あるいはワークロードを教えていただければ、1コールで構成を決めます。",
+    "primaryCta": "IPCストアを見る →",
+    "secondaryCta": "エンジニアに相談"
+  },
+  "contact": {
+    "tag": "06 · お問い合わせ",
+    "title": "システムを届けるチームに直接ご相談を。",
+    "sub": "無料ハードウェア相談。営業日1日以内に返信。販売・サポート・エンジニアリングが同じ電話で対応します。",
+    "labels": {
+      "phone": "電話",
+      "email": "メール",
+      "corporate": "本社&サポートセンター",
+      "warehouse": "出荷倉庫",
+      "sales": "販売&注文",
+      "support": "テクニカルサポート",
+      "main": "代表",
+      "tollFree": "フリーダイヤル"
+    }
+  },
+  "footer": {
+    "tagline": "堅牢なエッジAIコンピュータ、NVIDIAアクセラレーテッドプラットフォーム、産業ネットワークの提供 — 2002年から信頼性を設計してきました。",
+    "phoneMain": "代表 · 732-568-1988",
+    "phoneTollFree": "フリーダイヤル · 888-908-3330",
+    "linkedin": "LinkedIn ↗",
+    "copyright": "© 2026 Neteon Technologies, Inc. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "cookie": "Cookieポリシー",
+    "columns": {
+      "products": {
+        "title": "製品",
+        "links": {
+          "rugged": "堅牢エッジAIコンピュータ",
+          "compact": "ファンレスコンパクトPC",
+          "gpu": "GPUコンピューティング",
+          "jetson": "Jetsonプラットフォーム"
+        }
+      },
+      "shop": {
+        "title": "ショップ",
+        "links": {
+          "ipc": "産業用コンピュータ",
+          "moxa": "Moxaショップ",
+          "iiot": "産業IoT"
+        }
+      },
+      "resources": {
+        "title": "リソース",
+        "links": {
+          "shipping": "発送&注文",
+          "support": "テクニカルサポート",
+          "warranty": "保証&返品",
+          "blogAi": "Neteon.ai ブログ",
+          "blogNet": "Neteon.net ブログ"
+        }
+      },
+      "company": {
+        "title": "会社情報",
+        "links": {
+          "why": "Neteonが選ばれる理由",
+          "contact": "お問い合わせ",
+          "linkedin": "LinkedIn"
+        }
+      }
+    }
+  }
+}
