@@ -43,7 +43,7 @@ export function Nav({ labels, locale }: Props) {
   return (
     <nav className="sticky top-0 z-[1000] w-full bg-black/70 backdrop-blur-md">
       <div className="container-huge h-16 flex items-center justify-between gap-6">
-        <a href="#" aria-label="Neteon home" className="flex items-center text-white">
+        <a href={`/${locale}`} aria-label="Neteon home" className="flex items-center text-white">
           <NeteonWordmark height={18} className="h-[18px] w-auto text-white" />
         </a>
 

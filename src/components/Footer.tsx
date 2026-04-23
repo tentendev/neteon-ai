@@ -90,7 +90,7 @@ export function Footer({
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,420px)_1fr] gap-14 lg:gap-20">
           {/* Left: brand + subscribe + socials */}
           <div>
-            <a href="#" aria-label="Neteon home" className="inline-flex items-center">
+            <a href={`/${locale}`} aria-label="Neteon home" className="inline-flex items-center">
               <NeteonWordmark height={22} className="h-[22px] w-auto text-white" />
             </a>
             <p className="mt-4 max-w-sm text-[14px] text-white/55">{tagline}</p>
