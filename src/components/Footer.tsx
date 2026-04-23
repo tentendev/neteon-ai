@@ -1,4 +1,5 @@
 import type { FooterColumn } from "@/types/content";
+import type { Locale } from "@/lib/locales";
 import { urls } from "@/lib/neteon-data";
 import { NeteonWordmark } from "./icons";
 import { FooterSubscribe } from "./FooterSubscribe";
@@ -29,6 +30,7 @@ type Props = {
     youtube: string;
     instagram: string;
   };
+  locale: Locale;
 };
 
 const BG_IMAGE =
@@ -44,7 +46,10 @@ export function Footer({
   subscribe,
   partnerBadge,
   socials,
+  locale,
 }: Props) {
+  const privacyHref = `/${locale}/privacy`;
+  const cookieHref = `/${locale}/cookies`;
   return (
     <footer className="bg-black text-white">
       {/* Hero CTA band with landscape photo */}
@@ -128,20 +133,10 @@ export function Footer({
           <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-6 text-[13px]">
             <span className="text-[var(--text-faint)]">{copyright}</span>
             <div className="flex gap-5 text-white/55">
-              <a
-                href={urls.privacy}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white"
-              >
+              <a href={privacyHref} className="hover:text-white">
                 {privacy}
               </a>
-              <a
-                href={urls.privacy}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white"
-              >
+              <a href={cookieHref} className="hover:text-white">
                 {cookie}
               </a>
             </div>
