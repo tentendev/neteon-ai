@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. جميع الحقوق محفوظة.",
     "privacy": "سياسة الخصوصية",
     "cookie": "سياسة ملفات تعريف الارتباط",
+    "ctaBand": {
+      "title": "هل أنت مستعد لنشر الذكاء الاصطناعي في الحافة؟",
+      "contact": "اتصل بنا",
+      "start": "ابدأ الآن"
+    },
+    "subscribe": {
+      "title": "اشترك للحصول على التحديثات",
+      "firstname": "الاسم الأول",
+      "lastname": "الاسم الأخير",
+      "email": "البريد الإلكتروني",
+      "consent": "بإرسالك، فإنك توافق على تلقي التحديثات من Neteon. نحن نحترم بياناتك.",
+      "submit": "اشتراك"
+    },
+    "partnerBadge": "شريك NVIDIA المفضل",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "المنتجات",

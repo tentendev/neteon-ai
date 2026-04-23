@@ -226,12 +226,13 @@ export default async function Home({
       <Footer
         tagline={dict.footer.tagline}
         columns={footerColumns}
-        linkedinLabel={dict.footer.linkedin}
         copyright={dict.footer.copyright}
         privacy={dict.footer.privacy}
         cookie={dict.footer.cookie}
-        phoneMainLabel={dict.footer.phoneMain}
-        phoneTollFreeLabel={dict.footer.phoneTollFree}
+        ctaBand={dict.footer.ctaBand}
+        subscribe={dict.footer.subscribe}
+        partnerBadge={dict.footer.partnerBadge}
+        socials={dict.footer.socials}
       />
     </div>
     </QuoteFormProvider>

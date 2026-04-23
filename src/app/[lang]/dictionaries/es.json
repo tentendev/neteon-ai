@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "cookie": "Política de cookies",
+    "ctaBand": {
+      "title": "¿Listo para desplegar Edge AI en el borde?",
+      "contact": "Contáctanos",
+      "start": "Comenzar"
+    },
+    "subscribe": {
+      "title": "Suscríbete a las novedades",
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "email": "Correo electrónico",
+      "consent": "Al enviar, aceptas recibir novedades de Neteon. Respetamos tus datos.",
+      "submit": "Suscribirse"
+    },
+    "partnerBadge": "Socio preferente de NVIDIA",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "Productos",

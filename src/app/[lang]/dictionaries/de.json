@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. Alle Rechte vorbehalten.",
     "privacy": "Datenschutz",
     "cookie": "Cookie-Richtlinie",
+    "ctaBand": {
+      "title": "Bereit, Edge AI im Feld einzusetzen?",
+      "contact": "Kontaktieren Sie uns",
+      "start": "Jetzt starten"
+    },
+    "subscribe": {
+      "title": "Updates abonnieren",
+      "firstname": "Vorname",
+      "lastname": "Nachname",
+      "email": "E-Mail",
+      "consent": "Mit dem Absenden stimmen Sie zu, Updates von Neteon zu erhalten. Wir respektieren Ihre Daten.",
+      "submit": "Abonnieren"
+    },
+    "partnerBadge": "NVIDIA Preferred Partner",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "Produkte",

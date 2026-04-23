@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "cookie": "Cookieポリシー",
+    "ctaBand": {
+      "title": "現場にエッジAIを展開する準備はできていますか？",
+      "contact": "お問い合わせ",
+      "start": "はじめる"
+    },
+    "subscribe": {
+      "title": "最新情報を購読",
+      "firstname": "名",
+      "lastname": "姓",
+      "email": "メールアドレス",
+      "consent": "送信すると、Neteonからの最新情報を受け取ることに同意したものとみなされます。お客様のデータを尊重します。",
+      "submit": "購読する"
+    },
+    "partnerBadge": "NVIDIA 優先パートナー",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "製品",

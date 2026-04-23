@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. 版權所有。",
     "privacy": "隱私政策",
     "cookie": "Cookie 政策",
+    "ctaBand": {
+      "title": "準備好在邊緣部署 Edge AI 了嗎？",
+      "contact": "聯絡我們",
+      "start": "立即開始"
+    },
+    "subscribe": {
+      "title": "訂閱最新消息",
+      "firstname": "名",
+      "lastname": "姓",
+      "email": "電子郵件",
+      "consent": "提交即表示您同意接收 Neteon 的最新消息。我們尊重您的資料隱私。",
+      "submit": "訂閱"
+    },
+    "partnerBadge": "NVIDIA 優選合作夥伴",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "產品",

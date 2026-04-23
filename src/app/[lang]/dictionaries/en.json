@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. All rights reserved.",
     "privacy": "Privacy Policy",
     "cookie": "Cookie Policy",
+    "ctaBand": {
+      "title": "Ready to deploy Edge AI at the edge?",
+      "contact": "Contact us",
+      "start": "Get started"
+    },
+    "subscribe": {
+      "title": "Subscribe for updates",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email",
+      "consent": "By submitting, you agree to receive updates from Neteon. We respect your data.",
+      "submit": "Subscribe"
+    },
+    "partnerBadge": "NVIDIA Preferred Partner",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "Products",

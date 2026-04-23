@@ -264,6 +264,26 @@
     "copyright": "© 2026 Neteon Technologies, Inc. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "cookie": "Politique de cookies",
+    "ctaBand": {
+      "title": "Prêt à déployer l'Edge AI sur le terrain ?",
+      "contact": "Nous contacter",
+      "start": "Commencer"
+    },
+    "subscribe": {
+      "title": "Abonnez-vous aux actualités",
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "E-mail",
+      "consent": "En soumettant, vous acceptez de recevoir des actualités de Neteon. Nous respectons vos données.",
+      "submit": "S'abonner"
+    },
+    "partnerBadge": "Partenaire privilégié NVIDIA",
+    "socials": {
+      "linkedin": "LinkedIn",
+      "x": "X (Twitter)",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    },
     "columns": {
       "products": {
         "title": "Produits",

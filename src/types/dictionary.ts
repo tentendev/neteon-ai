@@ -175,6 +175,26 @@ export type Dictionary = {
     copyright: string;
     privacy: string;
     cookie: string;
+    ctaBand: {
+      title: string;
+      contact: string;
+      start: string;
+    };
+    subscribe: {
+      title: string;
+      firstname: string;
+      lastname: string;
+      email: string;
+      consent: string;
+      submit: string;
+    };
+    partnerBadge: string;
+    socials: {
+      linkedin: string;
+      x: string;
+      youtube: string;
+      instagram: string;
+    };
     columns: {
       products: {
         title: string;
