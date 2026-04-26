@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const linkHeader = [
   '<https://neteon.ai/sitemap.xml>; rel="sitemap"; type="application/xml"',
   '<https://neteon.ai/robots.txt>; rel="describedby"; type="text/plain"',
+  '<https://neteon.ai/.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json"',
+  '<https://neteon.ai/openapi.yaml>; rel="service-desc"; type="application/yaml"',
+  '<https://neteon.ai/api/health>; rel="status"; type="application/json"',
   '<https://neteon.ai/en/privacy>; rel="privacy-policy"',
   '<https://neteon.ai/en/cookies>; rel="license"',
   '<https://www.neteon.net>; rel="canonical"',

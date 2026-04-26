@@ -1,0 +1,78 @@
+openapi: 3.1.0
+info:
+  title: Neteon.ai Public Web API
+  version: "1.0.0"
+  summary: Machine-readable surfaces of the Neteon.ai marketing site.
+  description: |
+    Public, read-only endpoints exposed by neteon.ai for AI agents and
+    automated tooling. The primary endpoint serves a markdown rendering of
+    each locale's home page, suitable for retrieval-augmented generation
+    and content grounding.
+  contact:
+    name: Neteon Technologies
+    email: ipc@neteon.net
+    url: https://neteon.ai
+  license:
+    name: Proprietary
+    url: https://neteon.ai/en/privacy
+servers:
+  - url: https://neteon.ai
+    description: Production
+tags:
+  - name: content
+    description: Site content as markdown.
+  - name: status
+    description: Service health.
+paths:
+  /api/md/{lang}:
+    get:
+      tags: [content]
+      summary: Get the home page as markdown for a locale.
+      description: |
+        Returns the marketing home page content for the given locale as
+        Markdown. Useful for AI agents that prefer structured text over
+        rendered HTML. Browsers requesting the locale URL with
+        `Accept: text/markdown` will be transparently rewritten here.
+      operationId: getHomeMarkdown
+      parameters:
+        - name: lang
+          in: path
+          required: true
+          description: Two-letter locale code.
+          schema:
+            type: string
+            enum: [en, es, fr, de, ja, zh, ko, pt, ar]
+      responses:
+        "200":
+          description: Markdown document.
+          headers:
+            x-markdown-tokens:
+              description: Approximate token count of the response body.
+              schema: { type: integer }
+          content:
+            text/markdown:
+              schema:
+                type: string
+        "404":
+          description: Unknown locale.
+          content:
+            text/plain:
+              schema:
+                type: string
+  /api/health:
+    get:
+      tags: [status]
+      summary: Service health check.
+      operationId: getHealth
+      responses:
+        "200":
+          description: Service is up.
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status, time]
+                properties:
+                  status: { type: string, enum: [ok] }
+                  time: { type: string, format: date-time }
+                  service: { type: string }
