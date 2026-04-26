@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getDictionary } from "./dictionaries";
 import { hasLocale, isRtl, SUPPORTED_LOCALES } from "@/lib/locales";
+import WebMcp from "@/components/WebMcp";
 import "../globals.css";
 
 const inter = Inter({
@@ -51,6 +52,7 @@ export default async function RootLayout({
       className={`dark ${inter.variable} ${mono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <WebMcp locale={locale} />
         {children}
       </body>
     </html>
